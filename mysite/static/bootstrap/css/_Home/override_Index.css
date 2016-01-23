@@ -1,0 +1,13 @@
+/* Transparent Navbar */
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 } 
+
+/* Featurette Padding */
+.custom-width {
+    padding: 0 5% 0 5%;
+}

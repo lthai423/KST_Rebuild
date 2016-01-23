@@ -5,13 +5,14 @@
 {% block header %}
 
 	<link href="{% static 'bootstrap/css/_Home/cover.css' %}" rel="stylesheet">
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="" content="">
-  <meta name="L. Thai" content="">
+    <link href="{% static 'bootstrap/css/_Home/override_Index.css' %}" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                    
+                        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="" content="">
+    <meta name="L. Thai" content="">
   
 
 {% endblock %}
@@ -19,9 +20,8 @@
 
 {% block content %}
 
-<div class="navbar-wrapper">
+    <div class="navbar-wrapper">
       <div class="container">
-
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
@@ -54,7 +54,6 @@
             </div>
           </div>
         </nav>
-
       </div>
     </div>
 
@@ -70,33 +69,35 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="{% static "media/placehold/500x500.png" %}" alt="First slide" />
+          <img class="first-slide" src="{% static "media/placehold/1500x500.png" %}" alt="First slide" />
           <div class="container">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <!--<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="{% static "media/placehold/1500x500.png" %}" alt="Second slide">
           <div class="container">
-            <div class="carousel-caption">
+            <!--<div class="carousel-caption">
               <h1>Another example headline.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
+            -->
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="{% static "media/placehold/1500x500.png" %}" alt="Third slide">
           <div class="container">
-            <div class="carousel-caption">
+            <!--<div class="carousel-caption">
               <h1>One more for good measure.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
+            -->
           </div>
         </div>
       </div>
@@ -111,8 +112,8 @@
     </div>
     <!-- /.carousel -->
 
-      <!-- START THE FEATURETTES -->
-
+    <!-- START THE FEATURETTES -->
+    <div class="custom-width"> 
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
@@ -143,7 +144,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="{% static "media/placehold/500x500.png" %}" 
+          <img class="featurette-image img-responsive center-block" src="{% static "media/placehold/500x500.png" %}">
         </div>
       </div>
 
