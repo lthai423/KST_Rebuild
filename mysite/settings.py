@@ -10,13 +10,14 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
-    import os
+import os
 ################################################################################
 #                                      Dependencies                            #
 ################################################################################
-    import os.paths                                                            #
-# Note that we use os.paths to construct the absolute path. This ensures Django #
-# can locate the files unambiguously for STATICFILES_DIRS. - LT 16JAN2016     #                      #
+import os.path                                                                # 
+#                                                                              #
+# Note that we use os.path to construct the absolute path. This ensures Django#
+# can locate the files unambiguously for STATICFILES_DIRS. - LT 16JAN2016      #                      
 #                                                                              #
 #                                                                              #
 #                                                                              #
@@ -37,6 +38,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+Temp_Path = os.path.realpath('.')
 
 # Application definition
 
@@ -48,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',
+    'home.apps.HomeConfig',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -140,3 +143,12 @@ STATICFILES_DIRS = (
         'static',
     ),
 )
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+TEMPLATE_DIRS = (
+    Temp_Path +"/templates",
+)
+ENV_PATH = os.path.abspath(os.path.dirname(__file__))
+MEDIA_ROOT = os.path.join(ENV_PATH, 'media/')
+MEDIA_URL = "/media/"
