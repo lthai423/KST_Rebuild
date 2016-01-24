@@ -21,9 +21,9 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = [
-    url(r'^$', include('home.urls')),
-    url(r'^polls/', include('polls.urls')),
-    url(r'^about/', include('home.urls')),
+    url(r'^$', include('home.urls'), name ='index'),
+    url(r'^polls/', include('polls.urls'), name ='polls'),
+    url(r'^about/', include('home.urls'), name='about'),
     url(r'^admin/', admin.site.urls),
 ]
 
