@@ -10,11 +10,11 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
-    import os
+import os
 ################################################################################
 #                                      Dependencies                            #
 ################################################################################
-    import os.paths                                                            #
+import os.path                                                           #
 # Note that we use os.paths to construct the absolute path. This ensures Django #
 # can locate the files unambiguously for STATICFILES_DIRS. - LT 16JAN2016     #                      #
 #                                                                              #
