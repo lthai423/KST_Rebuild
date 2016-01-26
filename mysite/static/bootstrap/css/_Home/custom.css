@@ -1,8 +1,8 @@
 /* Transparent Navbar */
 .navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
+   background-color: grey;
+   background: grey;
+   border-color: grey;
 }
 
 .navbar li { color: #000 } 

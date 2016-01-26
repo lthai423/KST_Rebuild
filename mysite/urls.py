@@ -22,7 +22,6 @@ admin.autodiscover()
 
 urlpatterns = [
     url(r'^$', include('home.urls'), name ='index'),
-    url(r'^polls/', include('polls.urls'), name ='polls'),
     url(r'^about/', include('home.urls'), name='about'),
     url(r'^admin/', admin.site.urls),
 ]
