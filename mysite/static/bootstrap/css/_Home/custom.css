@@ -1,0 +1,18 @@
+/* Transparent Navbar */
+
+
+.navbar li { color: #000 } 
+
+/* Featurette Padding */
+.custom-width {
+    padding: 0 5% 0 5%;
+}
+
+.navbar_alignRight {
+	position: absolute;
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin: auto;
+}
+}

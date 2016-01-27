@@ -17,13 +17,17 @@ import os
 import os.path                                                           #
 # Note that we use os.paths to construct the absolute path. This ensures Django #
 # can locate the files unambiguously for STATICFILES_DIRS. - LT 16JAN2016     #                      #
+import os.path                                                                # 
+#                                                                              #
+# Note that we use os.path to construct the absolute path. This ensures Django#
+# can locate the files unambiguously for STATICFILES_DIRS. - LT 16JAN2016      #                      
 #                                                                              #
 #                                                                              #
 #                                                                              #
 ################################################################################
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 
 # Quick-start development settings - unsuitable for production
@@ -35,8 +39,17 @@ SECRET_KEY = '*ih=!lu+z1=5sk8&ool2hmryc07rbuhjwy*3745=i6@$w)joo7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
+Temp_Path = os.path.realpath('.')
+
+PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
+
+MEDIA_ROOT = PROJECT_PATH + '/media/'
+
+TEMPLATE_DIRS = (
+    PROJECT_PATH + '/templates/',
+)
 
 # Application definition
 
@@ -47,7 +60,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'polls.apps.PollsConfig',
+    'home.apps.HomeConfig',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -66,7 +79,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(PROJECT_PATH, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -131,12 +144,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
 STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-    os.path.join(
-        os.path.dirname(__file__),
-        'static',
-    ),
+    os.path.join(BASE_DIR, 'static'),
+)
+
+SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
+STATICFILES_DIRS = (
+  os.path.join(SITE_ROOT, 'static/'),
 )
