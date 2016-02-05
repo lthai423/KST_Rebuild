@@ -7,7 +7,7 @@ app_name = 'about'
 from . import views
 urlpatterns = [
 
-    url(r'^', views.about, name ='about'),
+    url(r'^$', views.about, name ='about'),
     
 
 ]

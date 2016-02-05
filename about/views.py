@@ -1,3 +1,4 @@
-from django.shortcuts import render_to_response
+from django.shortcuts import render
+
 def about(request):
-	return render_to_response('about/about.html')
+	return render(request, 'about/about.html')
