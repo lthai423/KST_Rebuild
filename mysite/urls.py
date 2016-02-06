@@ -20,8 +20,9 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = [
+    url(r'^$', include('home.urls'), name ='index'),
     url(r'^about/', include('about.urls'), name ='about'),
-    url(r'^', include('home.urls'), name ='index'),
+    url(r'^community/', include('community.urls'), name ='community'),
     url(r'^admin/', admin.site.urls),
 ]
 

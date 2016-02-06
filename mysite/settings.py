@@ -50,6 +50,9 @@ MEDIA_ROOT = PROJECT_PATH + '/media/'
 INSTALLED_APPS = [
 
     'about',
+    'testing',
+    'community',
+    'contact',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
