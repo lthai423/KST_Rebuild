@@ -1,22 +1,16 @@
-/* Transparent Navbar */
-.navbar {
-   background-color: grey;
-   background: grey;
-   border-color: grey;
-}
+	/* Navbar Color on Scroll - from header.css - DEPEND of GLOBAL */
+	.header-fixed .header-v6.header-fixed-shrink .navbar {
+		background: #ccc;
 
-.navbar li { color: #000 } 
+	}
 
-/* Featurette Padding */
-.custom-width {
-    padding: 0 5% 0 5%;
-}
 
-.navbar_alignRight {
-	position: absolute;
-    width: 100%;
-    float: right;
-    text-align: right;
-    margin: auto;
-}
-}
+	/* Removes white border on splash - from * - DEPEND of home/index.html  */
+	.interactive-slider-v2{
+		margin: -1% -1% 0% -1%;
+	}
+
+	/* Moves Breadcrumb out of Menu */
+	.breadcrumbs{
+		margin: 6%;
+	}
