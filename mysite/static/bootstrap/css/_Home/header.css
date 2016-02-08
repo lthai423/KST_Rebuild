@@ -1068,7 +1068,7 @@
 
 /*Navbar*/
 .header-v6.header-white-transparent .navbar {
-	background: #000C39;
+	background: rgba(255,255,255,0.5);
 }
 
 /*Media Queries*/
@@ -1085,15 +1085,14 @@
 
 /*Navbar*/
 .header-v6.header-dark-transparent .navbar {
-	background:rgba(0,0,0,.7);
-	opacity: 1;
+	background: rgba(0,0,0,.5);
 }
 
 /*Media Queries*/
 @media (min-width: 992px) {
 	/*Header*/
 	.header-fixed .header-v6.header-dark-transparent.header-fixed-shrink {
-		box-shadow:  none;
+		box-shadow: none;
 	}
 
 	.header-fixed .header-v6.header-dark-transparent.header-fixed-shrink .navbar {

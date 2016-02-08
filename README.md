@@ -20,6 +20,21 @@ Getting Involved
 
 [Get in contact with the KST Webmaster](mailto:lthai@kellyspace.com) to get added to the GitHub team. If added, you will get write access to the repository.
 
+Requirements
+------------
+
+* Linux or Mac OS X (using Homebrew to install *python* and *pip*)
+* python 3.4.x
+* python-virtualenv 12.1.x
+* git 2.4.x
+* pip 6.1.x
+* postgresql 9.4.x
+* (the remaining requirements will be installed below using *pip*)
+
+**Note:** Pay close attention to the package names for your distro of Linux...
+
+* For example, on Ubuntu Server you'd use ```python3 virtualenv git python3-pip postgresql```.
+* On Manjaro (an Arch-derivative), you'd use ```python python-virtualenv git python-pip postgresql```.
 
 Setting Up
 ----------

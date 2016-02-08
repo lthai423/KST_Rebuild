@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-/* Add here all your css styles (customizations) */
-=======
 	/* Navbar Color on Scroll - from header.css - DEPEND of GLOBAL */
 	.header-fixed .header-v6.header-fixed-shrink .navbar {
 		background: #ccc;
@@ -17,4 +14,3 @@
 	.breadcrumbs{
 		margin: 6%;
 	}
->>>>>>> tempCSS

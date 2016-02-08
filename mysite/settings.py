@@ -14,9 +14,6 @@ import os
 ################################################################################
 #                                      Dependencies                            #
 ################################################################################
-import os.path                                                           #
-# Note that we use os.paths to construct the absolute path. This ensures Django #
-# can locate the files unambiguously for STATICFILES_DIRS. - LT 16JAN2016     #                      #
 import os.path                                                                # 
 #                                                                              #
 # Note that we use os.path to construct the absolute path. This ensures Django#

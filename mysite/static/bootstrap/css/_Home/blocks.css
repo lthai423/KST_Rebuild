@@ -110,7 +110,7 @@
   background-size: cover;
 }
 .promo-bg-img-v4 {
-  background: url(../static/media/home-splash.png) no-repeat;
+  background: url(../img/bg/img11.jpg) no-repeat;
   background-size: cover;
 }
 .promo-bg-img-v5 {
@@ -3157,7 +3157,7 @@
 }
 
 .interactive-slider-v2.img-v4 {
-  background: url(../../../media/pics/home-splash.jpg) no-repeat;
+  background: url(../img/bg/img9.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
