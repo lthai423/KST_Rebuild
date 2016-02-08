@@ -23,6 +23,8 @@ urlpatterns = [
     url(r'^$', include('home.urls'), name ='index'),
     url(r'^about/', include('about.urls'), name ='about'),
     url(r'^community/', include('community.urls'), name ='community'),
+    url(r'^contact/', include('contact.urls'), name ='contact'),
+    url(r'^testing/', include('testing.urls'), name ='testing'),
     url(r'^admin/', admin.site.urls),
 ]
 
