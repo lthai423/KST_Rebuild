@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+/* Add here all your css styles (customizations) */
+=======
+	/* Navbar Color on Scroll - from header.css - DEPEND of GLOBAL */
+	.header-fixed .header-v6.header-fixed-shrink .navbar {
+		background: #ccc;
+
+	}
+
+
+	/* Removes white border on splash - from * - DEPEND of home/index.html  */
+	.interactive-slider-v2{
+		margin: -1% -1% 0% -1%;
+	}
+
+	/* Moves Breadcrumb out of Menu */
+	.breadcrumbs{
+		margin: 6%;
+	}
+>>>>>>> tempCSS
