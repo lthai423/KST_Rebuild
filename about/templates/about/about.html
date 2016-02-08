@@ -2,38 +2,30 @@
 {% load staticfiles %}
 
 
-{% block header %}{% endblock %}
+{% block header %}
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/about/custom.css' %}">
+{% endblock %}
 
 
 {% block content %}
-		<!--=== Breadcrumbs ===-->
-		<div class="breadcrumbs breadcrumbs-light" style="margin-top:;">
-			<div class="container">
-				<h1 class="pull-left">Our Services</h1>
-				<ul class="pull-right breadcrumb">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="">Pages</a></li>
-					<li class="active">Services</li>
-				</ul>
-			</div>
-		</div><!--/breadcrumbs-->
-		<!--=== End Breadcrumbs ===-->
+
 
 		<!--=== News Block ===-->
 		<div class="container content-sm">
 			<div class="container">
 				<div class="row">
+					<div class="col-md-6">
+						<div class="responsive-video">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/rW82X4v6mRs" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
 					<div class="col-md-6 md-margin-bottom-30">
 						<h2 class="title-v2">WATCH ABOUT US</h2>
 						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
 						<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p><br>
 						<a href="#" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
-						<a href="#" class="btn-u">Purchase Now</a>
-					</div>
-					<div class="col-md-6">
-						<div class="responsive-video">
-							<iframe src="//player.vimeo.com/video/78451097?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-						</div>
+						<a href="#" class="btn-u">Contact Us</a>
 					</div>
 				</div>
 			</div>
@@ -55,21 +47,21 @@
 		<div class="container-fluid">
 			<div class="row no-gutter equal-height-columns margin-bottom-10">
 				<div class="col-sm-4">
-					<div class="service-block service-block-purple no-margin-bottom content equal-height-column">
+					<div class="service-block service-block-grey no-margin-bottom content equal-height-column" id="service-block-1">
 						<i class="icon-custom icon-md rounded icon-color-light icon-line icon-badge"></i>
 						<h2 class="heading-md font-light">Best Solutions</h2>
 						<p class="no-margin-bottom font-light">Provide; shifting landscape reduce carbon emissions human potential sustainability Jane Addams solve. Global network; care Rockefeller, vaccines equal opportunity human being.</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="service-block service-block-red no-margin-bottom content equal-height-column">
+					<div class="service-block service-block-grey no-margin-bottom content equal-height-column" id="service-block-2">
 						<i class="icon-custom icon-md rounded icon-color-light icon-line icon-fire"></i>
 						<h2 class="heading-md font-light">Excellent Features</h2>
 						<p class="no-margin-bottom font-light">Provide; shifting landscape reduce carbon emissions human potential sustainability Jane Addams solve. Global network; care Rockefeller, vaccines equal opportunity human being.</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="service-block service-block-aqua no-margin-bottom content equal-height-column">
+					<div class="service-block service-block-aqua no-margin-bottom content equal-height-column" id="service-block-3">
 						<i class="icon-custom icon-md rounded icon-color-light icon-line icon-directions"></i>
 						<h2 class="heading-md font-light">Creative Ideas</h2>
 						<p class="no-margin-bottom font-light">Provide; shifting landscape reduce carbon emissions human potential sustainability Jane Addams solve. Global network; care Rockefeller, vaccines equal opportunity human being.</p>
