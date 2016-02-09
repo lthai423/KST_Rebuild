@@ -1,6 +1,7 @@
-.breadcrumbs{
-	margin: 10% 0 -1%;
+#services-container{
+	margin: 8%;
 }
+
 
 .header-v6 .navbar-nav > li > a,
  .header-v6 .navbar-nav > li > a:hover,
@@ -16,12 +17,6 @@
 	.header-v6 .navbar-nav > .open > a:hover,
 	.header-v6 .navbar-nav > .open > a:focus {
 		color: gray;
-}
+	}
 
-.map{
-	margin: 4%;
-}
-
-#contacts-crumb{
-	margin-left:4%;
-}
+	
