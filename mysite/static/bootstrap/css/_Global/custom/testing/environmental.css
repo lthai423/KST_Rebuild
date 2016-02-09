@@ -1,0 +1,11 @@
+#container-1{
+	margin: 7% 0 5% 2%;
+}
+
+.header-v6 .navbar-nav > li > a, .header-v6 .navbar-nav > li > a:hover, .header-v6 .navbar-nav > li > a:focus, .header-v6 .navbar-nav > .active > a, .header-v6 .navbar-nav > .active > a:hover, .header-v6 .navbar-nav > .active > a:focus{
+	color: gray;
+}
+
+#recent-news{
+	margin-top: 3%;
+}
