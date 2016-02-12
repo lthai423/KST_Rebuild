@@ -3,137 +3,137 @@
 
 
 {% block header %}
-    <!-- CSS Customization -->
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/contact/custom.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/page_contact.css' %}">
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/contact/custom.css' %}">
+  <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/page_contact.css' %}">
 
 {% endblock %}
 
 
 {% block content %}
-	<!--=== Breadcrumbs ===-->
-		<div class="breadcrumbs">
-			<div class="container">
-				<h1 class="pull-left">	Our Contacts</h1>
+<!--=== Breadcrumbs ===-->
+	<div class="breadcrumbs">
+		<div class="container">
+			<h1 class="pull-left">	Our Contacts</h1>
 
-			</div>
-		</div><!--/breadcrumbs-->
-		<!--=== End Breadcrumbs ===-->
+		</div>
+	</div><!--/breadcrumbs-->
+	<!--=== End Breadcrumbs ===-->
 
-		<!-- Google Map -->
-		<div id="map" class="map">
-		</div><!---/map-->
-		<!-- End Google Map -->
+	<!-- Google Map -->
+	<div id="map" class="map">
+	</div><!---/map-->
+	<!-- End Google Map -->
 
-		<!--=== Content Part ===-->
-		<div class="container content">
-			<div class="row margin-bottom-30">
-				<div class="col-md-9 mb-margin-bottom-30">
-					<div class="headline"><h2>Contact Form</h2></div>
-					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit landitiis.</p><br />
+	<!--=== Content Part ===-->
+	<div class="container content">
+		<div class="row margin-bottom-30">
+			<div class="col-md-9 mb-margin-bottom-30">
+				<div class="headline"><h2>Contact Form</h2></div>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit landitiis.</p><br />
 
-					<form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
-						<fieldset class="no-padding">
-							<label>Name <span class="color-red">*</span></label>
-							<div class="row sky-space-20">
-								<div class="col-md-7 col-md-offset-0">
-									<div>
-										<input type="text" name="name" id="name" class="form-control">
-									</div>
+				<form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
+					<fieldset class="no-padding">
+						<label>Name <span class="color-red">*</span></label>
+						<div class="row sky-space-20">
+							<div class="col-md-7 col-md-offset-0">
+								<div>
+									<input type="text" name="name" id="name" class="form-control">
 								</div>
 							</div>
-
-							<label>Email <span class="color-red">*</span></label>
-							<div class="row sky-space-20">
-								<div class="col-md-7 col-md-offset-0">
-									<div>
-										<input type="text" name="email" id="email" class="form-control">
-									</div>
-								</div>
-							</div>
-
-							<label>Message <span class="color-red">*</span></label>
-							<div class="row sky-space-20">
-								<div class="col-md-11 col-md-offset-0">
-									<div>
-										<textarea rows="8" name="message" id="message" class="form-control"></textarea>
-									</div>
-								</div>
-							</div>
-
-							<p><button type="submit" class="btn-u">Send Message</button></p>
-						</fieldset>
-
-						<div class="message">
-							<i class="rounded-x fa fa-check"></i>
-							<p>Your message was successfully sent!</p>
 						</div>
-					</form>
-				</div><!--/col-md-9-->
 
-				<div class="col-md-3">
-					<!-- Contacts -->
-					<div class="headline"><h2>Contacts</h2></div>
-					<ul class="list-unstyled who margin-bottom-30">
-						<li><a href="#"><i class="fa fa-home"></i>5B Streat, City 50987 New Town US</a></li>
-						<li><a href="#"><i class="fa fa-envelope"></i>info@example.com</a></li>
-						<li><a href="#"><i class="fa fa-phone"></i>1(222) 5x86 x97x</a></li>
-						<li><a href="#"><i class="fa fa-globe"></i>http://www.example.com</a></li>
-					</ul>
+						<label>Email <span class="color-red">*</span></label>
+						<div class="row sky-space-20">
+							<div class="col-md-7 col-md-offset-0">
+								<div>
+									<input type="text" name="email" id="email" class="form-control">
+								</div>
+							</div>
+						</div>
 
-					<!-- Business Hours -->
-					<div class="headline"><h2>Business Hours</h2></div>
-					<ul class="list-unstyled margin-bottom-30">
-						<li><strong>Monday-Friday:</strong> 10am to 8pm</li>
-						<li><strong>Saturday:</strong> 11am to 3pm</li>
-						<li><strong>Sunday:</strong> Closed</li>
-					</ul>
+						<label>Message <span class="color-red">*</span></label>
+						<div class="row sky-space-20">
+							<div class="col-md-11 col-md-offset-0">
+								<div>
+									<textarea rows="8" name="message" id="message" class="form-control"></textarea>
+								</div>
+							</div>
+						</div>
 
-					<!-- Why we are? -->
-					<div class="headline"><h2>Why we are?</h2></div>
-					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-					<ul class="list-unstyled">
-						<li><i class="fa fa-check color-green"></i> Odio dignissimos ducimus</li>
-						<li><i class="fa fa-check color-green"></i> Blanditiis praesentium volup</li>
-						<li><i class="fa fa-check color-green"></i> Eos et accusamus</li>
-					</ul>
-				</div><!--/col-md-3-->
-			</div><!--/row-->
+						<p><button type="submit" class="btn-u">Send Message</button></p>
+					</fieldset>
 
-			<!-- Owl Clients v1 -->
-			<div class="headline"><h2>Our Clients</h2></div>
-			<div class="owl-clients-v1">
-				<div class="item">
-					<img src="assets/img/clients4/1.png" alt="">
-				</div>
-				<div class="item">
-					<img src="assets/img/clients4/2.png" alt="">
-				</div>
-				<div class="item">
-					<img src="assets/img/clients4/3.png" alt="">
-				</div>
-				<div class="item">
-					<img src="assets/img/clients4/4.png" alt="">
-				</div>
-				<div class="item">
-					<img src="assets/img/clients4/5.png" alt="">
-				</div>
-				<div class="item">
-					<img src="assets/img/clients4/6.png" alt="">
-				</div>
-				<div class="item">
-					<img src="assets/img/clients4/7.png" alt="">
-				</div>
-				<div class="item">
-					<img src="assets/img/clients4/8.png" alt="">
-				</div>
-				<div class="item">
-					<img src="assets/img/clients4/9.png" alt="">
-				</div>
+					<div class="message">
+						<i class="rounded-x fa fa-check"></i>
+						<p>Your message was successfully sent!</p>
+					</div>
+				</form>
+			</div><!--/col-md-9-->
+
+			<div class="col-md-3">
+				<!-- Contacts -->
+				<div class="headline"><h2>Contacts</h2></div>
+				<ul class="list-unstyled who margin-bottom-30">
+					<li><a href="#"><i class="fa fa-home"></i>5B Streat, City 50987 New Town US</a></li>
+					<li><a href="#"><i class="fa fa-envelope"></i>info@example.com</a></li>
+					<li><a href="#"><i class="fa fa-phone"></i>1(222) 5x86 x97x</a></li>
+					<li><a href="#"><i class="fa fa-globe"></i>http://www.example.com</a></li>
+				</ul>
+
+				<!-- Business Hours -->
+				<div class="headline"><h2>Business Hours</h2></div>
+				<ul class="list-unstyled margin-bottom-30">
+					<li><strong>Monday-Friday:</strong> 10am to 8pm</li>
+					<li><strong>Saturday:</strong> 11am to 3pm</li>
+					<li><strong>Sunday:</strong> Closed</li>
+				</ul>
+
+				<!-- Why we are? -->
+				<div class="headline"><h2>Why we are?</h2></div>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+				<ul class="list-unstyled">
+					<li><i class="fa fa-check color-green"></i> Odio dignissimos ducimus</li>
+					<li><i class="fa fa-check color-green"></i> Blanditiis praesentium volup</li>
+					<li><i class="fa fa-check color-green"></i> Eos et accusamus</li>
+				</ul>
+			</div><!--/col-md-3-->
+		</div><!--/row-->
+
+		<!-- Owl Clients v1 -->
+		<div class="headline"><h2>Our Clients</h2></div>
+		<div class="owl-clients-v1">
+			<div class="item">
+				<img src="assets/img/clients4/1.png" alt="">
 			</div>
-			<!-- End Owl Clients v1 -->
-		</div><!--/container-->
-		<!--=== End Content Part ===-->
+			<div class="item">
+				<img src="assets/img/clients4/2.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/3.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/4.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/5.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/6.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/7.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/8.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/9.png" alt="">
+			</div>
+		</div>
+		<!-- End Owl Clients v1 -->
+	</div><!--/container-->
+	<!--=== End Content Part ===-->
 
 {% endblock %}
 
@@ -141,14 +141,62 @@
 	<script src="https://maps.googleapis.com/maps/api/js"
          async defer></script>
 
-  <script>
+<!--   <script>
 	  function initMap() {
 	    var mapDiv = document.getElementById('map');
 	    var map = new google.maps.Map(mapDiv, {
 	      center: {lat: 34.096, lng: -117.247},
-	      zoom: 15
+	      zoom: 15,
+	      mapTypeId: google.maps.MapTypeId.HYBRID,					
 	    });
+	    var styles = [
+			  {
+			    featureType: "poi.business",
+			    elementType: "labels",
+			    stylers: [
+			      { visibility: "off" }
+			    ]
+			  }
+			];
 	  }
+	</script>
+ -->
+	<script>
+		function initMap() {
+
+		  // Create an array of styles.
+		  var styles = [
+		    {
+		    	// Remove all business markers -LT 12FEB2016
+		      featureType: "poi.business",
+			    elementType: "labels",
+			    stylers: [
+			      { visibility: "off" }
+			    ]
+		    }
+		  ];
+
+		  // Create a new StyledMapType object, passing it the array of styles,
+		  // as well as the name to be displayed on the map type control.
+		  var styledMap = new google.maps.StyledMapType(styles,
+		    {name: "Styled Map"});
+
+		  // Create a map object, and include the MapTypeId to add
+		  // to the map type control.
+		  var mapOptions = {
+		    zoom: 15,
+		    center: new google.maps.LatLng(34.096, -117.247),
+		    mapTypeControlOptions: {
+		      mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+		    }
+		  };
+		  var map = new google.maps.Map(document.getElementById('map'),
+		    mapOptions);
+
+		  //Associate the styled map with the MapTypeId and set it to display.
+		  map.mapTypes.set('map_style', styledMap);
+		  map.setMapTypeId('map_style');
+		}
 	</script>
 
   <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"

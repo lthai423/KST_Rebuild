@@ -1,5 +1,5 @@
 .breadcrumbs{
-	margin: 10% 0 -1%;
+	margin: 12% 0 2%;
 }
 
 .header-v6 .navbar-nav > li > a,
@@ -19,9 +19,10 @@
 }
 
 .map{
-	margin: 4%;
+	padding: 0%;
 }
 
 #contacts-crumb{
 	margin-left:4%;
 }
+

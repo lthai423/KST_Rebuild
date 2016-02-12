@@ -30,4 +30,12 @@
 	padding: 12%;
 }
 
-{% static 'media/testing/featured-blog.jpg' %}
+.parallax-counter-v4 {
+		background: url(../../../../../media/testing/container.jpg) 50% 0 fixed;
+}
+
+#parallax-counter{
+	margin: 0 -2% 0 -2%;
+	padding: 5%;
+}
+

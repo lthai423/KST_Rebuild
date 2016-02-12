@@ -1,28 +1,28 @@
-	/* Removes white border on splash - from # */
-	.interactive-slider-v2{
-		margin: -1% -1% 0% -1%;
-	}
+/* Removes white border on splash - from # */
+.interactive-slider-v2{
+	margin: -1% -1% 0% -1%;
+}
 
-	#second-container{
-		margin: 0 -1% 0 -1%;
-	}
+#second-container{
+	margin: 0 -1% 0 -1%;
+}
 
-	#threeBlocks{
-		margin: 0 -1% 0 -1%;
-	}
+#threeBlocks{
+	margin: 0 -1% 0 -1%;
+}
 
-	#block-1{
-		background: #A32727;
-	}
+#block-1{
+	background: #A32727;
+}
 
-	#block-2{
-		background: #AFAEAE;
-	}
+#block-2{
+	background: #AFAEAE;
+}
 
-	#block-3{
-		background: #25448E;
-	}
+#block-3{
+	background: #25448E;
+}
 
-	.quote-v1 {
-  background: url(../../../../../media/home/background-accent.png) repeat;
+.quote-v1 {
+	background: url(../../../../../media/home/background-accent.png) repeat;
 }
