@@ -37,3 +37,23 @@
 .header-fixed{
 	padding-top: 3%;
 }
+
+#parallax-section{
+	margin: 0 -5% 0 -5%;
+}
+
+#block-row{
+	margin: 0 -6% 0 -6%;
+}
+
+.parallax-counter-v2 {
+  background: url(../../../../../media/about/background-accent.png) repeat fixed;
+}
+
+.parallax-quote:before {
+  background: url(../../../../../media/about/faces.jpg) repeat;
+}
+
+#parallax-counter{
+	margin: 0 -5% 0 -5%;
+}
