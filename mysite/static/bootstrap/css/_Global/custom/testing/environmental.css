@@ -9,3 +9,9 @@
 #recent-news{
 	margin-top: 3%;
 }
+
+.header-v6 .navbar-nav > .open > a,
+ .header-v6 .navbar-nav > .open > a:hover,
+ .header-v6 .navbar-nav > .open > a:focus {
+ 	color: gray;
+}
