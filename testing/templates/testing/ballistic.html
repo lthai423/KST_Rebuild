@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block header %}
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/ballistic.css' %}">
+{% endblock %}
+
+
+{% block content %}
+<!--=== Breadcrumbs v3 ===-->
+		<div class="breadcrumbs-v3 img-v1">
+			<div class="container text-center">
+				<p>Our Services</p>
+				<h1>Creative freedom matters</h1>
+			</div><!--/end container-->
+		</div>
+		<!--=== End Breadcrumbs v3 ===-->
+
+		<!--=== Service Block v6 ===-->
+		<div class="container content-sm">
+			<div class="row service-block-v6">
+				<div class="col-md-4 md-margin-bottom-50">
+					<i class="icon-custom rounded-x icon-color-u icon-line icon-bulb"></i>
+					<div class="service-desc">
+						<h2>Creative Ideas</h2>
+						<p>Donec convallis augue lacus, sit amet imperdiet est auctor dapibus. Donec non mollis lectus. Maecenas</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4 md-margin-bottom-50">
+					<i class="icon-custom rounded-x icon-color-u icon-line icon-energy"></i>
+					<div class="service-desc">
+						<h2>Excellent Features</h2>
+						<p>Donec convallis augue lacus, sit amet imperdiet est auctor dapibus. Donec non mollis lectus. Maecenas</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="icon-custom rounded-x icon-color-u icon-line icon-screen-tablet"></i>
+					<div class="service-desc">
+						<h2>Fully Responsive</h2>
+						<p>Donec convallis augue lacus, sit amet imperdiet est auctor dapibus. Donec non mollis lectus. Maecenas</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+			</div><!--/end row-->
+		</div>
+		<!--=== End Service Block v6 ===-->
+
+		<!--=== Process v1 ===-->
+		<div class="process-v1 bg-color-light">
+			<div class="container content-sm">
+				<div class="headline-center margin-bottom-60">
+					<h2>OUR PROCESS</h2>
+					<p>Phasellus vitae ipsum ex. Etiam eu vestibulum ante. <br> Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Morbi libero libero, imperdiet fringilla </p>
+				</div>
+				<ul class="list-inline row process-in process-border">
+					<li class="col-sm-3 sm-margin-bottom-50">
+						<div class="process-icon">
+							<i class="rounded-x dot-active"></i>
+						</div>
+						<div class="process-desc">
+							<h3>Concept</h3>
+							<p>Donec convallis augue lacus, sit amet imperdiet est auctor dapibus.</p>
+						</div>
+					</li>
+					<li class="col-sm-3 sm-margin-bottom-50">
+						<div class="process-icon">
+							<i class="rounded-x dot-active"></i>
+						</div>
+						<div class="process-desc">
+							<h3>Design</h3>
+							<p>Donec convallis augue lacus, sit amet imperdiet est auctor dapibus.</p>
+						</div>
+					</li>
+					<li class="col-sm-3 sm-margin-bottom-50">
+						<div class="process-icon">
+							<i class="rounded-x dot-active"></i>
+						</div>
+						<div class="process-desc">
+							<h3>Coding</h3>
+							<p>Donec convallis augue lacus, sit amet imperdiet est auctor dapibus.</p>
+						</div>
+					</li>
+					<li class="col-sm-3">
+						<div class="process-icon">
+							<i class="rounded-x dot-active"></i>
+						</div>
+						<div class="process-desc">
+							<h3>Launch</h3>
+							<p>Donec convallis augue lacus, sit amet imperdiet est auctor dapibus.</p>
+						</div>
+					</li>
+				</ul>
+			</div><!--/end container-->
+		</div>
+		<!--=== End Process v1 ===-->
+
+{% endblock %}

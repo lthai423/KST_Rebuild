@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block header %}
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/home/custom.css' %}">
+{% endblock %}
+
+{% block metadata %}
+    <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="THE FASTEST AND EASIEST WAY TO START NEW PROJECTS AND STARTUPS">
+  <meta name="author" content="fhtmlstream.com">
+
+  <meta property="og:url" content="http://www.kellyspace.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kelly Space and Technology, Inc.">
+  <meta property="og:description" content="Cutting edge rocket and jet propulsion, ballistics, and environmental testing.">
+{% endblock %}
+
+{% block content %}
+
+    <!-- Interactive Slider v2 -->
+    <div class="interactive-slider-v2 interactive-slider-v2-md img-v3">
+        <div class="container">
+            <h1 class="cd-headline letters type">
+                <span>We are</span>
+                <span class="cd-words-wrapper">
+                    <b class="is-visible">Innovation</b>
+                    <b>Kelly Space</b>
+                </span>
+            </h1>
+            <p>Cutting edge rocket and jet propulsion, ballistic, and environmental testing.</p>
+        </div>
+    </div>
+    <!-- End Interactive Slider v2 -->
+    <!--=== Colorful Blocks ===-->
+    <div class="container-fluid" id="threeBlocks">
+        <div class="row no-gutter equal-height-columns">
+            <div class="col-sm-4">
+                <div class="service-block service-block-purple no-margin-bottom content equal-height-column" id="block-1">  
+                    <i class="icon-custom icon-md rounded icon-color-light icon-line icon-badge"></i>
+                    <h2 class="font-light">Dynamic Testing Solutions</h2>
+                    <p class="no-margin-bottom font-light">Kelly Space &amp; Technology, Inc. (KST) offers state-of-the-art test facilities and keeps test and engineering programs on schedule and within budget. Whether your need is physical testing, engineering or documentation services, KST’s diverse engineering staff and technicians are available to cost-effectively test and/or assist with any test specification tailoring process.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="service-block service-block-red no-margin-bottom content equal-height-column" id="block-2">
+                    <i class="icon-custom icon-md rounded icon-color-light icon-line icon-layers"></i>
+                    <h2 class="font-light">Giving it Forward</h2>
+                    <p class="no-margin-bottom font-light">KST has created a regional economic development strategy that integrates Economic Development with Workforce Development and Education to foster business growth, economic prosperity and community vitality. The integration and coordination of these elements are essential towards fostering and maintaining a healthy regional economy. </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="service-block service-block-blue no-margin-bottom content equal-height-column" id="block-3">
+                    <i class="icon-custom icon-md rounded icon-color-light icon-line icon-support"></i>
+                    <h2 class="font-light">Innovative Reserach and Support</h2>
+                    <p class="no-margin-bottom font-light">KST has established the Aerospace Research &amp; Development Center (ARDC) at its modernized facilities to incubate and commercialize leading-edge technologies based upon its Reusable Launch Vehicle(RLV) research and development activities. The ARDC draws upon specialized human and technical capital of KST as well as significant facility infrastructure, local expertise and technical capabilities available in California's Inland Empire to provide a hub for advanced development activities.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=== End Colorful Blocks ===-->
+
+    
+{% endblock %}
+
+{% block js_dependencies %} {% endblock %}

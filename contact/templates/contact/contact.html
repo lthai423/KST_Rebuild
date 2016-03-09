@@ -1,0 +1,204 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block header %}
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/contact/custom.css' %}">
+  <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/page_contact.css' %}">
+
+{% endblock %}
+
+
+{% block content %}
+<!--=== Breadcrumbs ===-->
+	<div class="breadcrumbs">
+		<div class="container">
+			<h1 class="pull-left">	Our Contacts</h1>
+
+		</div>
+	</div><!--/breadcrumbs-->
+	<!--=== End Breadcrumbs ===-->
+
+	<!-- Google Map -->
+	<div id="map" class="map">
+	</div><!---/map-->
+	<!-- End Google Map -->
+
+	<!--=== Content Part ===-->
+	<div class="container content">
+		<div class="row margin-bottom-30">
+			<div class="col-md-9 mb-margin-bottom-30">
+				<div class="headline"><h2>Contact Form</h2></div>
+				<p>If you wish to receive a quote on any of our testing services or simply would just like to recieve more information, please fill out our contact information sheet.  Our representatives will respond to you shortly.</p><br />
+
+				<form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
+					<fieldset class="no-padding">
+						<label>Name <span class="color-red">*</span></label>
+						<div class="row sky-space-20">
+							<div class="col-md-7 col-md-offset-0">
+								<div>
+									<input type="text" name="name" id="name" class="form-control">
+								</div>
+							</div>
+						</div>
+
+						<label>Email <span class="color-red">*</span></label>
+						<div class="row sky-space-20">
+							<div class="col-md-7 col-md-offset-0">
+								<div>
+									<input type="text" name="email" id="email" class="form-control">
+								</div>
+							</div>
+						</div>
+
+						<label>Message <span class="color-red">*</span></label>
+						<div class="row sky-space-20">
+							<div class="col-md-11 col-md-offset-0">
+								<div>
+									<textarea rows="8" name="message" id="message" class="form-control"></textarea>
+								</div>
+							</div>
+						</div>
+
+						<p><button type="submit" class="btn-u">Send Message</button></p>
+					</fieldset>
+
+					<div class="message">
+						<i class="rounded-x fa fa-check"></i>
+						<p>Your message was successfully sent!</p>
+					</div>
+				</form>
+			</div><!--/col-md-9-->
+
+			<div class="col-md-3">
+				<!-- Contacts -->
+				<div class="headline"><h2>Contacts</h2></div>
+				<ul class="list-unstyled who margin-bottom-30">
+					<li><a href="https://www.google.com/maps/dir/''/kelly+space+map/@34.0957953,-117.3175456,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x80dcab488c83b683:0xbefd33c653fc37bf!2m2!1d-117.2475055!2d34.0958152"><i class="fa fa-home"></i>294 S Leland Norton Way, San Bernardino, CA 92408</a></li>
+					<li><a href="mailto:jlee@kellyspace.com"><i class="fa fa-envelope"></i>jlee@kellyspace.com</a></li>
+					<li><a href="/"><i class="fa fa-phone"></i>909.382.2010.</a></li>
+					<li><a href="/"><i class="fa fa-globe"></i>http://www.kellyspace.com</a></li>
+				</ul>
+
+				<!-- Business Hours -->
+				<div class="headline"><h2>Business Hours</h2></div>
+				<ul class="list-unstyled margin-bottom-30">
+					<li><strong>Monday-Friday:</strong> 10am to 5pm</li>
+					<li><strong>Saturday-Sunday:</strong> Closed</li>
+				</ul>
+
+				<!-- Why we are? -->
+				<div class="headline"><h2>Why we are?</h2></div>
+				<p>Kelly Space &amp; Technology, Inc. since 1997 has been offering world-class testing and R&amp;D services</p>
+				<ul class="list-unstyled">
+					<li><i class="fa fa-check color-green"></i> On schedule and on budget</li>
+					<li><i class="fa fa-check color-green"></i> MIL-SPEC, IEEE, or any other test specifications </li>
+					<li><i class="fa fa-check color-green"></i> We offer a diverse engineering staff</li>
+				</ul>
+			</div><!--/col-md-3-->
+		</div><!--/row-->
+
+		<!-- Owl Clients v1 -->
+		<div class="headline"><h2>Our Clients</h2></div>
+		<div class="owl-clients-v1">
+			<div class="item">
+				<img src="assets/img/clients4/1.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/2.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/3.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/4.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/5.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/6.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/7.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/8.png" alt="">
+			</div>
+			<div class="item">
+				<img src="assets/img/clients4/9.png" alt="">
+			</div>
+		</div>
+		<!-- End Owl Clients v1 -->
+	</div><!--/container-->
+	<!--=== End Content Part ===-->
+
+{% endblock %}
+
+{% block js_dependencies %}
+	<script src="https://maps.googleapis.com/maps/api/js"
+         async defer></script>
+
+<!--   <script>
+	  function initMap() {
+	    var mapDiv = document.getElementById('map');
+	    var map = new google.maps.Map(mapDiv, {
+	      center: {lat: 34.096, lng: -117.247},
+	      zoom: 15,
+	      mapTypeId: google.maps.MapTypeId.HYBRID,					
+	    });
+	    var styles = [
+			  {
+			    featureType: "poi.business",
+			    elementType: "labels",
+			    stylers: [
+			      { visibility: "off" }
+			    ]
+			  }
+			];
+	  }
+	</script>
+ -->
+	<script>
+		function initMap() {
+
+		  // Create an array of styles.
+		  var styles = [
+		    {
+		    	// Remove all business markers -LT 12FEB2016
+		      featureType: "poi.business",
+			    elementType: "labels",
+			    stylers: [
+			      { visibility: "off" }
+			    ]
+		    }
+		  ];
+
+		  // Create a new StyledMapType object, passing it the array of styles,
+		  // as well as the name to be displayed on the map type control.
+		  var styledMap = new google.maps.StyledMapType(styles,
+		    {name: "Styled Map"});
+
+		  // Create a map object, and include the MapTypeId to add
+		  // to the map type control.
+		  var mapOptions = {
+		    zoom: 15,
+		    center: new google.maps.LatLng(34.096, -117.247),
+		    mapTypeControlOptions: {
+		      mapTypeIds: [google.maps.MapTypeId.HYBRID, 'map_style']
+		    }
+		  };
+		  var map = new google.maps.Map(document.getElementById('map'),
+		    mapOptions);
+
+		  //Associate the styled map with the MapTypeId and set it to display.
+		  map.mapTypes.set('map_style', styledMap);
+		  map.setMapTypeId('map_style');
+		}
+	</script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+      async defer></script>
+
+{% endblock %}

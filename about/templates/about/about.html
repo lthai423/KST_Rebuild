@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block header %}
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/about/custom.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+
+		<!--=== News Block ===-->
+		<div class="container content-sm">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="responsive-video">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/rW82X4v6mRs" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col-md-6 md-margin-bottom-30">
+						<h2 class="title-v2">WATCH ABOUT US</h2>
+						<p>Kelly Space &amp; Technology, Inc. (KST) is a privately-held aerospace and defense technology company with an advanced environmental testing services capability based at the San Bernardino International Airport (former Norton Air Force Base), California.</p>
+						<p>KST has established the Aerospace Research &amp; Development Center (ARDC) at its modernized facilities to incubate and commercialize leading-edge technologies based upon its Reusable Launch Vehicle (RLV) research and development activities. KST’s vision is to create and commercialize technologies that will open space to large-scale commercial development and apply these space technologies to beneficial use on earth.  ARDC programs are of national significance and have attracted key government interest to meet the nation's priorities in the field of aerospace and homeland security.</p><br>
+						<a href="#" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
+						<a href="/contact" class="btn-u">Contact Us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--=== End News Block ===-->
+
+		<!--=== Parallax Quote ===-->
+		<div class="parallax-quote parallaxBg" id="parallax-section" style="background-position: 50% 20px;">
+			<div class="container">
+				<div class="parallax-quote-in">
+					<p>If you can design one thing <span class="color-green">you can design</span> everything. <br> Just Believe It.</p>
+					<small>- HtmlStream -</small>
+				</div>
+			</div>
+		</div>
+		<!--=== End Parallax Quote ===-->
+
+
+
+		<!--=== News Block ===-->
+		<div class="container content-sm">
+			<div class="text-center margin-bottom-50">
+				<h2 class="title-v2 title-center">RECENT NEWS</h2>
+				<p class="space-lg-hor">If you are going to use a <span class="color-green">passage of Lorem Ipsum</span>, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making <span class="color-green">this the first</span> true generator on the Internet.</p>
+			</div>
+
+			<div class="row news-v2">
+				<div class="col-md-4 md-margin-bottom-30">
+					<div class="news-v2-badge">
+						<img class="img-responsive" src="{% static 'media/placehold/500x500.png' %}" alt="">
+						<p>
+							<span>26</span>
+							<small>Feb</small>
+						</p>
+					</div>
+					<div class="news-v2-desc bg-color-light">
+						<h3><a href="#">Corrupti Quos Dolores</a></h3>
+						<small>By Admin | <a class="color-inherit" href="#">16 Comments</a> | In <a href="#">Web Trends</a></small>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+					</div>
+				</div>
+				<div class="col-md-4 md-margin-bottom-30">
+					<div class="news-v2-badge">
+						<img class="img-responsive" src="{% static 'media/placehold/500x500.png' %}" alt="">
+						<p>
+							<span>24</span>
+							<small>Feb</small>
+						</p>
+					</div>
+					<div class="news-v2-desc bg-color-light">
+						<h3><a href="#">Blanditi Praesium Voluptum</a></h3>
+						<small>By Admin | <a class="color-inherit" href="#">51 Comments</a> | In <a href="#">Art &amp; Design</a></small>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="news-v2-badge">
+						<img class="img-responsive" src="{% static 'media/placehold/500x500.png' %}" alt="">
+						<p>
+							<span>21</span>
+							<small>Feb</small>
+						</p>
+					</div>
+					<div class="news-v2-desc bg-color-light">
+						<h3><a href="#">Key Digital Services</a></h3>
+						<small>By Admin | <a class="color-inherit" href="#">32 Comments</a> | In <a href="#">Google &amp; Android</a></small>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--=== End News Block ===-->
+
+{% endblock %}
