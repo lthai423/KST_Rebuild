@@ -8,7 +8,7 @@ from . import views
 urlpatterns = [
 
     url(r'^environmental/$', views.environmental, name ='environmental'),
-    url(r'^ballistic/$', views.ballistic, name ='ballistic'),
-    url(r'^jet/$', views.jet, name ='jet'),
+    url(r'^environmental/$', views.ballistic, name ='ballistic'),
+    url(r'^environmental/$', views.jet, name ='jet'),
 ]
 
