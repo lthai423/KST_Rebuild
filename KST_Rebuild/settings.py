@@ -147,8 +147,8 @@ STATIC_URL = '/static/'
 
 
 STATICFILES_DIRS = (
-    '/home/lawrencethai/thaistickcodes.com/KST_Rebuild/static/',
-#    os.path.join(BASE_DIR, 'static'),
+    # '/home/lawrencethai/thaistickcodes.com/KST_Rebuild/static/',
+   os.path.join(BASE_DIR, 'static'),
 )
 
 STATIC_ROOT = '/home/lawrencethai/thaistickcodes.com/public/static'
