@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom-sky-forms.css' %}">
     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/pace-flash.css' %}">
     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/business.style.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/global.css' %}">'
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/global.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/app.css' %}">
+		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/blocks.css' %}">
+		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/owl.carousel.css' %}">
+		<link rel="stylesheet" href="{% static 'bootstrap/fonts/font-awesome/css/font-awesome.min.css' %}">
+
 {% endblock %}
 
 
@@ -37,7 +42,7 @@
 	<section id="about">
 		<div class="row-fluid no-gutter equal-height-columns-v2 overflow-h g-text-height-md">
 			<!-- Image Block -->
-			<div class="col-md-4 equal-height-column-v2" data-image-src="assets/img-temp/img1.jpg"></div>
+			<div class="col-md-4 equal-height-column-v2" src="{% static 'media/home/jet.jpg' %}"></div>
 			<!-- End Image Block -->
 
 			<!-- About Block -->
@@ -56,7 +61,7 @@
 			<div class="col-md-4 g-bg-dark-blue2 equal-height-column-v2">
 				<ul class="owl2-carousel-v1 owl2-carousel-v1-dots list-unstyled g-pb-20">
 				  <li class="item g-mb-20">
-				  	<img class="img-responsive g-mb-30" src="assets/img-temp/about/img2.jpg" alt="">
+				  	<img class="img-responsive g-mb-30" src="{% static 'media/home/jet.jpg' %}" alt="">
 				  	<div class="g-pl-30 g-pr-30">
 							<h3 class="color-light">
 								<strong>SINCE 2008</strong>
@@ -66,7 +71,7 @@
 						</div>
 				  </li>
 				  <li class="item g-mb-20">
-				  	<img class="img-responsive g-mb-40" src="assets/img-temp/about/img3.jpg" alt="">
+				  	<img class="img-responsive g-mb-40" src="{% static 'media/home/jet.jpg' %}" alt="">
 				  	<div class="g-pl-50 g-pr-50">
 							<h3 class="color-light">
 								<strong>PAST 2012</strong>
@@ -76,7 +81,7 @@
 						</div>
 					</li>
 				  <li class="item g-mb-20">
-				  	<img class="img-responsive g-mb-40" src="assets/img-temp/about/img4.jpg" alt="">
+				  	<img class="img-responsive g-mb-40" src="{% static 'media/home/jet.jpg' %}" alt="">
 				  	<div class="g-pl-50 g-pr-50">
 							<h3 class="color-light">
 								<strong>PRESENT 2016</strong>
@@ -171,574 +176,39 @@
 	</section>
 	<!-- End Services -->
 
-	<!-- Processes -->
-	<section id="processes" class="g-bg-dark-blue1">
-		<div class="container content-md g-text-height-md">
+	
+{% endblock %}
+<script src="{% static 'js/jquery.min.js' %}"></script>
+  <script src="{% static 'js/jquery-migrate.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
 
-			<div class="row g-mb-60 text-center g-heading-v7">
-				<div class="col-sm-8 col-sm-offset-2">
-					<h2 class="h2 color-light">
-						<span class="block-name">Work Process</span>
-						<span class="g-text-height-lg">Step By Step</span>
-					</h2>
-					<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel odio.</p>
-				</div>
-			</div>
+  <!-- JS Implementing Plugins -->
+  <script src="{% static 'js/Responsive_Features/smoothScroll.js' %}"></script>
+  <script src="{% static 'js/Responsive_Features/pace.min.js' %}"></script>
+  <script src="{% static 'js/Responsive_Features/jquery.parallax.js' %}"></script>
+	<script src="{% static 'js/Responsive_Features/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'js/Responsive_Features/jquery.backstretch.min.js' %}"></script>
+	<script src="{% static 'js/Responsive_Features/wow-ini-themes.js' %}"></script>
 
-			<div class="row g-mb-20">
-				<div class="col-md-6 g-mb-20 steps-v1--lspace">
-					<ul class="list-unstyled steps-v1 g-bg-dark-blue2 g-no-mb">
-						<li>
-							<h3 class="heading-sm h3">
-								<span>STEP 1.</span>ANALISYS
-							</h3>
-						</li>
-						<li><p>Sed feugiat porttitor nunc, non dignissim ipsum  vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p></li>
-						<li class="steps-v1__block g-rounded-50x">
-							<i class="steps-v1__icon icon-fire"></i>
-							<img class="steps-v1__img g-rounded-50x" src="assets/img-temp/testimonials/img1.jpg" alt="">
-						</li>
-					</ul>
-				</div>
+  <!-- JS Page Level-->
+  <script src="{% static 'js/Responsive_Features/one.app.js' %}"></script>
+	<script src="{% static 'js/Responsive_Features/promo.js' %}"></script>
+  <script src="{% static 'js/Responsive_Features/pace-loader.js' %}"></script>
+  <script src="{% static 'js/Responsive_Features/owl2-carousel-v1.js' %}"></script>
+  <script src="{% static 'js/Responsive_Features/owl2-carousel-v2.js' %}"></script>
+  <script src="{% static 'js/Responsive_Features/owl2-carousel-v3.js' %}"></script>
+  <script src="{% static 'js/Responsive_Features/owl2-carousel-v4.js' %}"></script>
 
-				<div class="col-md-6 steps-v1--rspace">
-					<ul class="list-unstyled steps-v1 g-bg-dark-blue2 g-no-mb">
-						<li>
-							<h3 class="heading-sm h3">
-								<span>STEP 2.</span>CREATIVE CONCEP
-							</h3>
-						</li>
-						<li><p>Sed feugiat porttitor nunc, non dignissim ipsum  vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p></li>
-						<li class="steps-v1__block g-rounded-50x">
-							<i class="steps-v1__icon icon-energy"></i>
-							<img class="steps-v1__img img-responsive g-rounded-50x" src="assets/img-temp/testimonials/img2.jpg" alt="">
-						</li>
-					</ul>
-				</div>
-			</div>
+  <script type="text/javascript">
+	jQuery(document).ready(function() {
+		App.init();
+		Owl2Carouselv1.initOwl2Carouselv1();
+		Owl2Carouselv2.initOwl2Carouselv2();
+		Owl2Carouselv3.initOwl2Carouselv3();
+		Owl2Carouselv4.initOwl2Carouselv4();
+	});
+  </script>
+{% block js_dependencies %}
+	
 
-			<div class="row g-mb-50">
-				<div class="col-md-6 g-mb-20 steps-v1--lspace">
-					<ul class="list-unstyled steps-v1 g-bg-dark-blue2 g-no-mb">
-						<li>
-							<h3 class="heading-sm h3">
-								<span>STEP 3.</span>PRODUCTION
-							</h3>
-						</li>
-						<li><p>Sed feugiat porttitor nunc, non dignissim ipsum  vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p></li>
-						<li class="steps-v1__block g-rounded-50x">
-							<i class="steps-v1__icon icon-rocket"></i>
-							<img class="steps-v1__img img-responsive g-rounded-50x" src="assets/img-temp/testimonials/img3.jpg" alt="">
-						</li>
-					</ul>
-				</div>
-
-				<div class="col-md-6 steps-v1--rspace">
-					<ul class="list-unstyled steps-v1 g-bg-dark-blue2 g-no-mb">
-						<li>
-							<h3 class="heading-sm h3">
-								<span>STEP 4.</span>HAPPTY CLIENT
-							</h3>
-						</li>
-						<li><p>Sed feugiat porttitor nunc, non dignissim ipsum  vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p></li>
-						<li class="steps-v1__block g-rounded-50x">
-							<i class="steps-v1__icon icon-layers"></i>
-							<img class="steps-v1__img img-responsive g-rounded-50x" src="assets/img-temp/testimonials/img4.jpg" alt="">
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="row text-center page-scroll">
-				<div class="col-sm-8 col-sm-offset-2">
-					<p>Sed eget aliquet nisl. Proin laoreet accumsan nisl non vestibulum. Donec molestie, lorem nec sollicitudin elementum <br>
-					tristique senectus et netus et malesuada fames ac turpis egestas.</p><br>
-					<a href="#projects" class="btn-u btn-u--dark-blue">LEARN MORE</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Processes -->
-
-	<!-- Projects -->
-	<section id="projects">
-		<div class="container content-md g-text-height-md">
-			<div class="row">
-				<!-- Project Info -->
-				<div class="col-md-4">
-					<div class="g-heading-v7 g-mb-60 g-pt-35">
-						<h2 class="h2">
-							<span class="block-name">Our Projects</span>
-							<span class="g-text-height-lg">We Are The <br> Best</span>
-						</h2>
-						<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel odio.</p>
-						<p>In rutrum tellus vitae blandit lacinia. Phasellus eget sapien odio. Phasellus eget sapien odio. Vivamus at risus quis leo tincidunt scelerisque non et erat.</p>
-					</div>
-				</div>
-				<!-- End Project Info -->
-
-				<!-- Carousel Block -->
-				<div class="col-md-8">
-					<ul class="list-unstyled owl2-carousel-v2 g-pt-50">
-					  <li class="item">
-					  	<div class="owl2-carousel-v2__item g-mb-10">
-					  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/projects/img1.jpg" alt="">
-					  		<div class="owl2-carousel-v2__item-info">
-						  		<span>THE MOON LTD</span>
-						  		<p>Quisque rhoncus euismod pulvinar. Nulla non arcu at lectus. Vestibulum fringilla velit.</p>
-					  		</div>
-					  	</div>
-					  	<div class="owl2-carousel-v2__item">
-					  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/projects/img2.jpg" alt="">
-					  		<div class="owl2-carousel-v2__item-info">
-						  		<span>SUPPORT &amp; DEVELOPMENT</span>
-						  		<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in nulla non arcu at lectus.</p>
-					  		</div>
-					  	</div>
-					  </li>
-					  <li class="item">
-					  	<div class="owl2-carousel-v2__item g-mb-10">
-					  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/projects/img3.jpg" alt="">
-					  		<div class="owl2-carousel-v2__item-info">
-						  		<span>BOSTON GLOBAL</span>
-						  		<p>In rutrum tellus vitae blandit lacinia. Phasellus eget sapien odio. Phasellus eget sapien odio.</p>
-					  		</div>
-					  	</div>
-					  	<div class="owl2-carousel-v2__item">
-					  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/projects/img4.jpg" alt="">
-					  		<div class="owl2-carousel-v2__item-info">
-						  		<span>MARKETING GROUP</span>
-						  		<p>Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor.</p>
-					  		</div>
-					  	</div>
-						</li>
-					</ul>
-				</div>
-				<!-- End Carousel Block -->
-			</div>
-		</div>
-	</section>
-	<!-- End Projects -->
-
-	<!-- How We Work -->
-	<section id="how-we-work">
-		<div class="container-fluid g-bg-dark-blue1">
-			<div class="row equal-height-columns-v2">
-				<!-- Image Block -->
-				<div class="col-md-5 content-md g-no-left-padding equal-height-column-v2" data-image-src="assets/img-temp/img2.jpg"></div>
-				<!-- End Image Block -->
-
-				<!-- Steps v2 -->
-				<div class="col-md-7 content-md equal-height-column-v2 g-pl-40 g-pr-40">
-					<div class="g-heading-v7 g-mb-60">
-						<h2 class="h2 color-light">
-							<span class="block-name">How We Work</span>
-							<span class="g-text-height-lg">Do All The Best</span>
-						</h2>
-						<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel odio.</p>
-					</div>
-
-					<ul class="row list-unstyled steps-v2">
-						<li class="col-md-6 g-mb-20">
-							<div class="steps-v2__block g-bg-dark-blue2">
-								<h3 class="h5 color-light">AGENCY SEARCH</h3>
-								<p>Quisque rhoncus euismod pulvinar. Nulla non arcu at lectus. Vestibulum ipsum vestibulum velit.</p>
-							</div>
-						</li>
-						<li class="col-md-6 g-mb-20">
-							<div class="steps-v2__block g-bg-dark-blue2">
-								<h3 class="h5 color-light">MANAGEMENT &amp; MARKETING</h3>
-								<p>Quisque rhoncus euismod pulvinar. Nulla non arcu at lectus. Vestibulum ipsum vestibulum velit.</p>
-							</div>
-						</li>
-						<li class="col-md-6 g-mb-20">
-							<div class="steps-v2__block g-bg-dark-blue2">
-								<h3 class="h5 color-light">COACHING &amp; STRATEGY PLANNING</h3>
-								<p>Quisque rhoncus euismod pulvinar. Nulla non arcu at lectus. Vestibulum ipsum vestibulum velit.</p>
-							</div>
-						</li>
-						<li class="col-md-6 g-mb-20">
-							<div class="steps-v2__block g-bg-dark-blue2">
-								<h3 class="h5 color-light">CONSULTATION SERVICES</h3>
-								<p>Quisque rhoncus euismod pulvinar. Nulla non arcu at lectus. Vestibulum ipsum vestibulum velit.</p>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<!-- End Steps v2 -->
-			</div>
-		</div>
- 	</section>
-	<!-- End How We Work -->
-
-	<!-- Pricing -->
-	<section id="services">
-		<div class="container content-md g-text-height-md">
-			<div class="row g-mb-60 text-center g-heading-v7">
-				<div class="col-sm-8 col-sm-offset-2">
-					<h2 class="h2">
-						<span class="block-name">Our Offers</span>
-						<span class="g-text-height-lg">Best Offers For You</span>
-					</h2>
-					<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel odio.</p>
-				</div>
-			</div>
-
-			<div class="row no-gutter text-center">
-				<div class="col-md-4">
-					<div class="pricing-v10">
-						<ul class="list-unstyled pricing-v10__block g-bg-gray">
-							<li class="pricing-v10__block-list">
-								<h3 class="h4">STARTER</h3>
-								<span class="text-muted">ed feugiat porttitor nunc, non</span>
-							</li>
-							<li class="pricing-v10__block-list g-pt-20 g-pb-20">
-								<strong class="pricing-v10__price g-color-primary g-display-block">$25.00</strong>
-								<span class="g-color-primary">per month</span>
-							</li>
-							<li class="pricing-v10__block-list text-muted">Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper justo..</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>10%</strong>
-								In hac habitasse platea
-							</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>10gb</strong>
-								Praesent egestas ac arcu
-							</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>25</strong>
-								emails  Sed eget aliquet nisl
-							</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>No</strong>
-								Proin laoreet accumsan nisl non
-							</li>
-							<li class="pricing-v10__block-list"><a class="btn-u btn-u--dark-blue">ORDER NOW</a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="pricing-v10 pricing-v10--lg">
-						<ul class="list-unstyled pricing-v10__block pricing-v10__block--lg g-bg-gray">
-							<li class="pricing-v10__block-list">
-								<h3 class="h4">ADVANCED</h3>
-								<span class="text-muted">ed feugiat porttitor nunc, non</span>
-							</li>
-							<li class="pricing-v10__block-list g-pt-20 g-pb-20">
-								<strong class="pricing-v10__price g-color-primary g-display-block">$50.00</strong>
-								<span class="g-color-primary">per month</span>
-							</li>
-							<li class="pricing-v10__block-list text-muted">Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in...</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>20%</strong>
-								In hac habitasse platea
-							</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>20gb</strong>
-								Praesent egestas ac arcu
-							</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>50</strong>
-								emails  Sed eget aliquet nisl
-							</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>YES</strong>
-								Proin laoreet accumsan nisl non
-							</li>
-							<li class="pricing-v10__block-list"><a class="btn-u btn-u--dark-blue">ORDER NOW</a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="pricing-v10">
-						<ul class="list-unstyled pricing-v10__block g-bg-gray">
-							<li class="pricing-v10__block-list">
-								<h3 class="h4">PROFESSIONAL</h3>
-								<span class="text-muted">ed feugiat porttitor nunc, non</span>
-							</li>
-							<li class="pricing-v10__block-list g-pt-20 g-pb-20">
-								<strong class="pricing-v10__price g-color-primary g-display-block">$75.00</strong>
-								<span class="g-color-primary">per month</span>
-							</li>
-							<li class="pricing-v10__block-list text-muted">Enim orci viverra eros, fringilla porttitor lorem eros vel odio in.</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>30%</strong>
-								In hac habitasse platea
-							</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>40gb</strong>
-								Praesent egestas ac arcu
-							</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>100</strong>
-								emails  Sed eget aliquet nisl
-							</li>
-							<li class="pricing-v10__block-list text-muted">
-								<strong>YES</strong>
-								Proin laoreet accumsan nisl non
-							</li>
-							<li class="pricing-v10__block-list"><a class="btn-u btn-u--dark-blue">ORDER NOW</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Pricing -->
-
-	<!-- News -->
-	<section id="news" class="g-bg-dark-blue1">
-		<div class="container g-pt-80">
-			<div class="row g-mb-60 text-center g-heading-v7">
-				<div class="col-sm-8 col-sm-offset-2">
-					<h2 class="h2">
-						<span class="block-name">From Our Blog</span>
-						<span class="g-text-height-lg">Latest News</span>
-					</h2>
-					<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel odio.</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="container-fluid g-text-height-md g-no-side-padding">
-			<ul class="list-unstyled owl2-carousel-v4 g-no-mb">
-			  <li class="item">
-			  	<div class="owl2-carousel-v2__item">
-			  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img1.jpg" alt="">
-			  		<div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-			  		</div>
-			  	</div>
-			  	<div class="owl2-carousel-v2__item">
-			  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img2.jpg" alt="">
-			  		<div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-			  		</div>
-			  	</div>
-			  </li>
-			  <li class="item">
-			  	<div class="owl2-carousel-v2__item">
-			  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img4.jpg" alt="">
-			  		<div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-			  		</div>
-			  	</div>
-			  	<div class="owl2-carousel-v2__item">
-			  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img3.jpg" alt="">
-			  		<div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-			  		</div>
-			  	</div>
-				</li>
-			  <li class="item">
-			  	<div class="owl2-carousel-v2__item">
-			  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img6.jpg" alt="">
-			  		<div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-			  		</div>
-			  	</div>
-			  	<div class="owl2-carousel-v2__item">
-			  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img5.jpg" alt="">
-			  		<div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-			  		</div>
-			  	</div>
-			  </li>
-			  <li class="item">
-			  	<div class="owl2-carousel-v2__item">
-			  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img7.jpg" alt="">
-			  		<div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-			  		</div>
-			  	</div>
-			  	<div class="owl2-carousel-v2__item">
-			  		<img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img4.jpg" alt="">
-			  		<div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-			  		</div>
-			  	</div>
-			  </li>
-			</ul>
-		</div>
-	</section>
-	<!-- End News -->
-
-	<!-- Clients -->
-	<section id="clients">
-		<div class="container content-md g-text-height-md">
-			<div class="row g-mb-60 text-center g-heading-v7">
-				<div class="col-sm-8 col-sm-offset-2">
-					<h2 class="h2">
-						<span class="block-name">Our Clients</span>
-						<span class="g-text-height-lg">Who Work With Us</span>
-					</h2>
-				</div>
-			</div>
-
-			<ul class="list-unstyled owl2-carousel-v3 g-mb-60">
-			  <li class="item owl2-carousel-v3__item">
-			  	<img src="assets/img-temp/clients/img1.png" alt="">
-			  </li>
-			  <li class="item owl2-carousel-v3__item">
-			  	<img src="assets/img-temp/clients/img2.png" alt="">
-			  </li>
-			  <li class="item owl2-carousel-v3__item">
-			  	<img src="assets/img-temp/clients/img3.png" alt="">
-			  </li>
-			  <li class="item owl2-carousel-v3__item">
-			  	<img src="assets/img-temp/clients/img4.png" alt="">
-			  </li>
-			  <li class="item owl2-carousel-v3__item">
-			  	<img src="assets/img-temp/clients/img5.png" alt="">
-			  </li>
-			  <li class="item owl2-carousel-v3__item">
-			  	<img src="assets/img-temp/clients/img6.png" alt="">
-			  </li>
-			  <li class="item owl2-carousel-v3__item">
-			  	<img src="assets/img-temp/clients/img7.png" alt="">
-			  </li>
-			  <li class="item owl2-carousel-v3__item">
-			  	<img src="assets/img-temp/clients/img8.png" alt="">
-			  </li>
-			</ul>
-
-			<div class="row text-center page-scroll">
-				<div class="col-sm-8 col-sm-offset-2">
-					<p>Sed eget aliquet nisl. Proin laoreet accumsan nisl non vestibulum. Donec molestie, lorem nec sollicitudin elementum <br>
-					tristique senectus et netus et malesuada fames ac turpis egestas.</p><br>
-					<a href="#projects" class="btn-u btn-u--dark-blue">PROJECTS</a>
-				</div>
-			</div>
-
-		</div>
-	</section>
-	<!-- End Clients -->
-
-	<!-- Contact -->
-	<section id="contact" class="g-bg-dark-blue1">
-		<div class="container content-md g-text-height-md">
-			<div class="row g-mb-60 text-center g-heading-v7">
-				<div class="col-sm-8 col-sm-offset-2">
-					<h2 class="h2">
-						<span class="block-name">Contact</span>
-						<span class="g-text-height-lg">Our Contacts</span>
-					</h2>
-					<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel odio.</p>
-				</div>
-			</div>
-
-			<!-- Contact Details -->
-			<ul class="list-unstyled row text-center">
-				<li class="col-md-3 contact-blocks-v1">
-						<i class="contact-blocks-v1__icon g-display-block g-color-primary icon-globe"></i>
-						<h4>Address</h4>
-						<span class="g-display-block g-color-white">61 Oxford str., London, 3DG</span>
-				</li>
-				<li class="col-md-3 contact-blocks-v1">
-						<i class="contact-blocks-v1__icon g-display-block g-color-primary icon-call-in"></i>
-						<h4>Phone Number</h4>
-						<span class="g-display-block g-color-white">1-800-643-4500</span>
-				</li>
-				<li class="col-md-3 contact-blocks-v1">
-						<i class="contact-blocks-v1__icon g-display-block g-color-primary icon-envelope"></i>
-						<h4>Email</h4>
-						<span class="g-display-block g-color-white">mail@htmlstream.com</span>
-				</li>
-				<li class="col-md-3 contact-blocks-v1">
-						<i class="contact-blocks-v1__icon g-display-block g-color-primary icon-earphones-alt"></i>
-						<h4>Toll Free</h4>
-						<span class="g-display-block g-color-white">@unify</span>
-				</li>
-			</ul>
-			<!-- Contact Details -->
-		</div>
-
-		<!-- Socials -->
-		<ul class="list-unstyled btn-group btn-group-justified g-no-mb">
-		  <li class="btn-group social-block-v1__list">
-		    <a href="#" class="btn social-block-v1__list-btn">
-			    <i class="fa fa-twitter"></i>
-		    </a>
-		  </li>
-		  <li class="btn-group social-block-v1__list">
-		    <a href="#" class="btn social-block-v1__list-btn">
-			    <i class="fa fa-linkedin"></i>
-		    </a>
-		  </li>
-		  <li class="btn-group social-block-v1__list">
-		    <a href="#" class="btn social-block-v1__list-btn">
-			    <i class="fa fa-facebook"></i>
-		    </a>
-		  </li>
-		  <li class="btn-group social-block-v1__list">
-		    <a href="#" class="btn social-block-v1__list-btn">
-			    <i class="fa fa-instagram"></i>
-		    </a>
-		  </li>
-		  <li class="btn-group social-block-v1__list">
-		    <a href="#" class="btn social-block-v1__list-btn">
-			    <i class="fa fa-google-plus"></i>
-		    </a>
-		  </li>
-		</ul>
-		<!-- End Socials -->
-
-	  <!-- Google Maps -->
-	  <div class="height-500" id="map"></div>
-	  <!-- End Google Maps -->
-
-	  <!-- Copyright and Subscribe -->
-	  <div class="bg-color-white">
-	  	<div class="container text-center g-pt-30 g-pb-30">
-  			<h2 class="g-text-size-17 g-mb-10">SUBSRIBE ON OUR OFFERS</h2>
-				<form class="g-mb-20" action="">
-				  <div class="form-group row">
-				    <div class="input-group col-xs-6 col-xs-offset-3 subscribe-block-v1">
-				      <input type="text" class="form-control subscribe-block-v1__form" id="exampleInputAmount" placeholder="Enter Your Email">
-				      <div class="input-group-addon subscribe-block-v1__addon">
-				      	<i class="icon-envelope"></i>
-				      </div>
-				    </div>
-				  </div>
-				</form>
-	  		<p class="g-color-gray-dark g-no-mb g-text-size-12">&copy; 2016 All right reserved. Unify developed by <a href="#" class="g-color-primary">Htmlstream</a></p>
-	  	</div>
-	  </div>
-	  <!-- End Copyright and Subscribe -->
-	</section>
-	<!-- End Contact -->
 {% endblock %}
