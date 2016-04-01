@@ -4,7 +4,6 @@
 
 {% block header %}
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/ballistic.css' %}">
     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/sky-forms.css' %}">
     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom-sky-forms.css' %}">
     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/pace-flash.css' %}">
@@ -14,88 +13,34 @@
 		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/blocks.css' %}">
 		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/owl.carousel.css' %}">
 		<link rel="stylesheet" href="{% static 'bootstrap/fonts/font-awesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/custom.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/header.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/ballistic.css' %}">
 
 {% endblock %}
 
 
-{% block content %}
 
-	<!-- Promo -->
-	<section class="g-bg-dark-blue1">
-		<div class="fullscreen-static-image promo-block--cover fullheight">
-			<div class="container valign__middle">
+{% block content %}
+  <!-- Interactive Slider v2 -->
+  <div class="interactive-slider-v2 interactive-slider-v2-md img-v3">
+      <div class="container valign__middle">
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2 text-center">
 						<div class="promo-block__item page-scroll animated fadeIn wow" data-wow-duration="2s" data-wow-delay="1s">
-							<span class="g-display-block g-mb-10">WE ARE UNIFY</span>
-							<span class="promo-block__item-text g-mb-20">Business &amp; Corporation</span>
-							<p class="promo-block__item-text1 g-mb-20">Sed feugiat porttitor nunc, non dignissim <br> ipsum vestibulum in. Donec in blandit dolor.</p>
-							<a href="#about" class="btn-u btn-brd btn-brd-hover btn-u-light">LEARN MORE</a>
+							<span class="g-display-block g-mb-10">WE ARE KELLY SPACE</span>
+							<span class="promo-block__item-text g-mb-20">Community Enrichment</span>
+							<p class="promo-block__item-text1 g-mb-20">THROUGH THE INTEGRATION OF A REGIONAL ECONOMIC DEVELOPMENT STRATEGY THAT STIMULATES ECONOMIC DEVELOPMENT BY WORKFROCE DEVELOPMENT AND EDUCATION</p>
+							<a href="#services" class="btn-u btn-brd btn-brd-hover btn-u-light">LEARN MORE</a>
 						</div>
 					</div>
 				</div>
 			</div>
-	</section>
-	<!-- End Promo -->
+  </div>
+  <!-- End Interactive Slider v2 -->
+	
 
-	<!-- About -->
-	<section id="about">
-		<div class="row-fluid no-gutter equal-height-columns-v2 overflow-h g-text-height-md">
-			<!-- Image Block -->
-			<div class="col-md-4 equal-height-column-v2" src="{% static 'media/home/jet.jpg' %}"></div>
-			<!-- End Image Block -->
-
-			<!-- About Block -->
-			<div class="col-md-4 equal-height-column-v2 text-center g-bg-dark-blue1 g-heading-v7">
-				<div class="valign__middle g-padding-30">
-					<h2 class="h2 color-light">
-						<span class="block-name">About Us</span>
-						<span class="g-text-height-lg">Help Make <br> Money</span>
-					</h2>
-					<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel odio. Praesent egestas ac arcu ac convallis. Donec ut diam risus purus.</p>
-				</div>
-			</div>
-			<!-- End About Block -->
-
-			<!-- Carousel Block -->
-			<div class="col-md-4 g-bg-dark-blue2 equal-height-column-v2">
-				<ul class="owl2-carousel-v1 owl2-carousel-v1-dots list-unstyled g-pb-20">
-				  <li class="item g-mb-20">
-				  	<img class="img-responsive g-mb-30" src="{% static 'media/home/jet.jpg' %}" alt="">
-				  	<div class="g-pl-30 g-pr-30">
-							<h3 class="color-light">
-								<strong>SINCE 2008</strong>
-							</h3>
-							<p>Etiam consectetur placerat gravida. Pellentesque ultricies mattis est, quis elementum neque pulvinar at.</p>
-							<p>Aenean odio ante, varius vel tempor sed Ut condimentum ex ac enim ullamcorper volutpat. Integer arcu nisl, finibus vitae sodales vitae, malesuada ultricies sapien.</p>
-						</div>
-				  </li>
-				  <li class="item g-mb-20">
-				  	<img class="img-responsive g-mb-40" src="{% static 'media/home/jet.jpg' %}" alt="">
-				  	<div class="g-pl-50 g-pr-50">
-							<h3 class="color-light">
-								<strong>PAST 2012</strong>
-							</h3>
-							<p>Etiam consectetur placerat gravida. Pellentesque ultricies mattis est, quis elementum neque pulvinar at.</p>
-							<p>Aenean odio ante, varius vel tempor sed Ut condimentum ex ac enim ullamcorper volutpat. Integer arcu nisl, finibus vitae sodales vitae, malesuada ultricies sapien.</p>
-						</div>
-					</li>
-				  <li class="item g-mb-20">
-				  	<img class="img-responsive g-mb-40" src="{% static 'media/home/jet.jpg' %}" alt="">
-				  	<div class="g-pl-50 g-pr-50">
-							<h3 class="color-light">
-								<strong>PRESENT 2016</strong>
-							</h3>
-							<p>Etiam consectetur placerat gravida. Pellentesque ultricies mattis est, quis elementum neque pulvinar at.</p>
-							<p>Aenean odio ante, varius vel tempor sed Ut condimentum ex ac enim ullamcorper volutpat. Integer arcu nisl, finibus vitae sodales vitae, malesuada ultricies sapien.</p>
-						</div>
-				  </li>
-				</ul>
-			</div>
-			<!-- End Carousel Block -->
-		</div>
-	</section>
-	<!-- End About -->
+	
 
 	<!-- Services -->
 	<section id="services">
@@ -104,8 +49,8 @@
 			<div class="row g-mb-60 text-center g-heading-v7">
 				<div class="col-sm-8 col-sm-offset-2">
 					<h2 class="h2">
-						<span class="block-name">Our Services</span>
-						<span class="g-text-height-lg">What We Do</span>
+						<span class="block-name">Leaders in Community Enrichment</span>
+						<span class="g-text-height-lg">Our Contributions</span>
 					</h2>
 				</div>
 			</div>
@@ -178,37 +123,4 @@
 
 	
 {% endblock %}
-
-{% block js_dependencies %}
 	
-<script src="{% static 'bootstrap/js/jquery.min.js' %}"></script>
-  <script src="{% static 'bootstrap/js/jquery-migrate.min.js' %}"></script>
-  <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
-
-  <!-- JS Implementing Plugins -->
-  <script src="{% static 'bootstrap/js/Responsive_Features/smoothScroll.js' %}"></script>
-  <script src="{% static 'bootstrap/js/Responsive_Features/pace.min.js' %}"></script>
-  <script src="{% static 'bootstrap/js/Responsive_Features/jquery.parallax.js' %}"></script>
-	<script src="{% static 'bootstrap/js/Responsive_Features/owl.carousel.min.js' %}"></script>
-	<script src="{% static 'bootstrap/js/Responsive_Features/jquery.backstretch.min.js' %}"></script>
-	<script src="{% static 'bootstrap/js/Responsive_Features/wow-ini-themes.js' %}"></script>
-
-  <!-- JS Page Level-->
-  <script src="{% static 'bootstrap/js/Responsive_Features/one.app.js' %}"></script>
-	<script src="{% static 'bootstrap/js/Responsive_Features/promo.js' %}"></script>
-  <script src="{% static 'bootstrap/js/Responsive_Features/pace-loader.js' %}"></script>
-  <script src="{% static 'bootstrap/js/Responsive_Features/owl2-carousel-v1.js' %}"></script>
-  <script src="{% static 'bootstrap/js/Responsive_Features/owl2-carousel-v2.js' %}"></script>
-  <script src="{% static 'bootstrap/js/Responsive_Features/owl2-carousel-v3.js' %}"></script>
-  <script src="{% static 'bootstrap/js/Responsive_Features/owl2-carousel-v4.js' %}"></script>
-
-  <script type="text/javascript">
-	jQuery(document).ready(function() {
-		App.init();
-		Owl2Carouselv1.initOwl2Carouselv1();
-		Owl2Carouselv2.initOwl2Carouselv2();
-		Owl2Carouselv3.initOwl2Carouselv3();
-		Owl2Carouselv4.initOwl2Carouselv4();
-	});
-  </script>
-{% endblock %}

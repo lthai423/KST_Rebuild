@@ -1,4 +1,4 @@
-{% load staticfiles %}
+
 <!DOCTYPE html>
     <html lang="en-US">
 	<head>
@@ -23,32 +23,40 @@
 		<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
 
 		<!-- CSS Global Compulsory -->
-		<link rel="stylesheet" href="{% static 'bootstrap/css//bootstrap.min.css' %}">
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/style.css' %}">
+		<link rel="stylesheet" href="/static/bootstrap/css//bootstrap.min.css">
+		<link rel="stylesheet" href="/static/bootstrap/css/_Global/style.css">
 
 		<!-- CSS Header and Footer -->
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/header.css' %}">
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/footer.css' %}">
+		<link rel="stylesheet" href="/static/bootstrap/css/_Global/header.css">
+		<link rel="stylesheet" href="/static/bootstrap/css/_Global/footer.css">
 
 		<!-- CSS Implementing Plugins -->
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/animate.css' %}">
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/line-icons.css' %}">
-		<link rel="stylesheet" href="{% static 'bootstrap/fonts/font-awesome/css/font-awesome.min.css' %}">
-	 	<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/cubeportfolio.min.css' %}">
-	    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom-cubeportfolio.css' %}">
-        <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/animated-headline.css' %}">
+		<link rel="stylesheet" href="/static/bootstrap/css/_Global/animate.css">
+		<link rel="stylesheet" href="/static/bootstrap/css/_Global/line-icons.css">
+		<link rel="stylesheet" href="/static/bootstrap/fonts/font-awesome/css/font-awesome.min.css">
+	 	<link rel="stylesheet" href="/static/bootstrap/css/_Global/cubeportfolio.min.css">
+	    <link rel="stylesheet" href="/static/bootstrap/css/_Global/custom-cubeportfolio.css">
+        <link rel="stylesheet" href="/static/bootstrap/css/_Global/animated-headline.css">
 
 		<!-- CSS Pages Style -->
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/page_one.css' %}">
+		<link rel="stylesheet" href="/static/bootstrap/css/_Global/page_one.css">
 
 		<!-- CSS Theme -->
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/blue.css' %}" id="style_color">
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/dark.css' %}">
+		<link rel="stylesheet" href="/static/bootstrap/css/_Global/blue.css" id="style_color">
+		<link rel="stylesheet" href="/static/bootstrap/css/_Global/dark.css">
 
 		<!-- CSS Customization -->
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/custom.css' %}">
+		<link rel="stylesheet" href="/static/bootstrap/css/_Global/custom/custom.css">
 
-		{% block header %} {% endblock %}
+		
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="/static/bootstrap/css/_Global/custom/testing/ballistic.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/_Global/sky-forms.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/_Global/custom-sky-forms.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/_Global/pace-flash.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/_Global/business.style.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/_Global/global.css">'
+
 
 	</head>
 
@@ -74,8 +82,8 @@
                     <!-- Navbar Brand -->
                     <div class="navbar-brand">
                         <a href="/	">
-                            <img class="default-logo" style="height:200px;" src="{% static 'media/logo/kstTran.png' %}" alt="Logo">
-                            <img class="shrink-logo" src="{% static 'media/logo/kstTran.png' %}" alt="Logo">
+                            <img class="default-logo" style="height:200px;" src="/static/media/logo/kstTran.png" alt="Logo">
+                            <img class="shrink-logo" src="/static/media/logo/kstTran.png" alt="Logo">
                         </a>
                     </div>
                     <!-- ENd Navbar Brand -->
@@ -164,7 +172,114 @@
     
 
 
-    {% block content %} {% endblock %}
+    
+
+  <!-- Interactive Slider v2 -->
+  <div class="interactive-slider-v2 interactive-slider-v2-md img-v3">
+      <div class="container">
+          <!-- <h1 class="cd-headline letters type">
+              <span>We are</span>
+              <span class="cd-words-wrapper">
+                  <b class="is-visible">Innovation</b>
+                  <b>Kelly Space</b>
+              </span>
+          </h1>
+          <p>Cutting edge rocket and jet propulsion, ballistic, and environmental testing.</p> -->
+      </div>
+  </div>
+  <!-- End Interactive Slider v2 -->
+	
+
+	
+	<!-- Processes -->
+	<section id="processes" class="g-bg-dark-blue1" style="margin: -15% 0 0 0;">
+		<div class="container content-md g-text-height-md">
+
+			<div class="row g-mb-60 text-center g-heading-v7">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2 class="h2 color-light">
+						<span class="block-name">Work Process</span>
+						<span class="g-text-height-lg">Step By Step</span>
+					</h2>
+					<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel odio.</p>
+				</div>
+			</div>
+
+			<div class="row g-mb-20">
+				<div class="col-md-6 g-mb-20 steps-v1--lspace">
+					<ul class="list-unstyled steps-v1 g-bg-dark-blue2 g-no-mb">
+						<li>
+							<h3 class="heading-sm h3">
+								<span>STEP 1.</span>ANALISYS
+							</h3>
+						</li>
+						<li><p>Sed feugiat porttitor nunc, non dignissim ipsum  vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p></li>
+						<li class="steps-v1__block g-rounded-50x">
+							<i class="steps-v1__icon icon-fire"></i>
+							<img class="steps-v1__img g-rounded-50x" src="assets/img-temp/testimonials/img1.jpg" alt="">
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 steps-v1--rspace">
+					<ul class="list-unstyled steps-v1 g-bg-dark-blue2 g-no-mb">
+						<li>
+							<h3 class="heading-sm h3">
+								<span>STEP 2.</span>CREATIVE CONCEP
+							</h3>
+						</li>
+						<li><p>Sed feugiat porttitor nunc, non dignissim ipsum  vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p></li>
+						<li class="steps-v1__block g-rounded-50x">
+							<i class="steps-v1__icon icon-energy"></i>
+							<img class="steps-v1__img img-responsive g-rounded-50x" src="assets/img-temp/testimonials/img2.jpg" alt="">
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row g-mb-50">
+				<div class="col-md-6 g-mb-20 steps-v1--lspace">
+					<ul class="list-unstyled steps-v1 g-bg-dark-blue2 g-no-mb">
+						<li>
+							<h3 class="heading-sm h3">
+								<span>STEP 3.</span>PRODUCTION
+							</h3>
+						</li>
+						<li><p>Sed feugiat porttitor nunc, non dignissim ipsum  vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p></li>
+						<li class="steps-v1__block g-rounded-50x">
+							<i class="steps-v1__icon icon-rocket"></i>
+							<img class="steps-v1__img img-responsive g-rounded-50x" src="assets/img-temp/testimonials/img3.jpg" alt="">
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 steps-v1--rspace">
+					<ul class="list-unstyled steps-v1 g-bg-dark-blue2 g-no-mb">
+						<li>
+							<h3 class="heading-sm h3">
+								<span>STEP 4.</span>HAPPTY CLIENT
+							</h3>
+						</li>
+						<li><p>Sed feugiat porttitor nunc, non dignissim ipsum  vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p></li>
+						<li class="steps-v1__block g-rounded-50x">
+							<i class="steps-v1__icon icon-layers"></i>
+							<img class="steps-v1__img img-responsive g-rounded-50x" src="assets/img-temp/testimonials/img4.jpg" alt="">
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row text-center page-scroll">
+				<div class="col-sm-8 col-sm-offset-2">
+					<p>Sed eget aliquet nisl. Proin laoreet accumsan nisl non vestibulum. Donec molestie, lorem nec sollicitudin elementum <br>
+					tristique senectus et netus et malesuada fames ac turpis egestas.</p><br>
+					<a href="#projects" class="btn-u btn-u--dark-blue">LEARN MORE</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Processes -->
+
 
     <!--=== Footer v6 ===-->
     <div id="footer-v6" class="footer-v6">
@@ -308,25 +423,25 @@
 
 
     <!-- JS Global Compulsory -->
-    <script type="text/javascript" src="{% static 'bootstrap/js/jquery.min.js' %}"></script>
-    <script type="text/javascript" src="{% static 'bootstrap/js/jquery.migrate.min.js' %}"></script>
-    <script type="text/javascript" src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="/static/bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/js/jquery.migrate.min.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/js/bootstrap.min.js"></script>
 		<!-- JS Implementing Plugins -->
-    <script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/back-to-top.js' %}"></script>
-    <script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/smoothScroll.js' %}"></script>
-    <script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/jquery.parallax.js' %}"></script>
-		<script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/waypoints.min.js' %}"></script>
-		<script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/jquery.counterup.min.js' %}"></script>
-		<script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/wow.min.js' %}"></script>
-		<script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/modernizr.js' %}"></script>
-		<script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/animated-headline.js' %}"></script>
-		<script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/jquery.cubeportfolio.min.js' %}"></script>
-		<script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/style-switcher.js' %}"></script>
+    <script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/back-to-top.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/smoothScroll.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/jquery.parallax.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/waypoints.min.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/jquery.counterup.min.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/wow.min.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/modernizr.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/animated-headline.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/jquery.cubeportfolio.min.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/style-switcher.js"></script>
 		<!-- JS Customization -->
 		<!--<script type="text/javascript" src="{% static 'bootstrap/js/_Global/custom.js"></script>-->
 		<!-- JS Page Level -->
-  	<script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/app.js' %}"></script>
-		<script type="text/javascript" src="{% static 'bootstrap/js/Responsive_Features/cube-portfolio-3.js' %}"></script>
+  	<script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/app.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/Responsive_Features/cube-portfolio-3.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
 				App.init();
@@ -334,8 +449,8 @@
 				App.initParallaxBg();
 			});
 		</script>
-{% block js_dependencies %}
-{% endblock %}
+
+
   </body>
 
 </html>
