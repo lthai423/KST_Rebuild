@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block header %}
+		<!-- Owl Carousel -->
+		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/owl.carousel.css' %}">
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/environmental.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+		<!--=== Breadcrumbs v3 ===-->
+		<div class="breadcrumbs-v3 img-v3 text-center">
+			<div class="container">
+				<h1>Environmental Testing</h1>
+				<p>Kelly Space can provide you with dynamic environmental testing solutions.</p>
+			</div>
+		</div>
+		<!--=== End Breadcrumbs v3 ===-->
+
+		<!--=== Featured Blog ===-->
+		<div class="container content-sm">
+			<div class="row featured-blog">
+				<div class="col-sm-4 sm-margin-bottom-50">
+					<div class="featured-img">
+						<img class="img-responsive margin-bottom-20" src="{% static 'media/placehold/500x500.png' %}" alt="">
+						<a href="#"><i class="rounded-x fa fa-link"></i></a>
+					</div>
+					<h2><a class="color-dark" href="#">Fully Qualified</a></h2>
+					<p>At the ARDC, Kelly Space and Technology offers a full range of specificaiton design services, R &amp; D, and a variety of testing solutions.</p>
+				</div>
+				<div class="col-sm-4 sm-margin-bottom-50">
+					<div class="featured-img">
+						<img class="img-responsive margin-bottom-20" src="{% static 'media/placehold/500x500.png' %}" alt="">
+						<a href="#"><i class="rounded-x fa fa-link"></i></a>
+					</div>
+					<h2><a class="color-dark" href="#">Dyanmic Testing Capabilities</a></h2>
+					<p>Capable of testing items ranging from rocket engines to valves, to full systems and sub-system hardware to single components.</p>
+				</div>
+				<div class="col-sm-4">
+					<div class="featured-img">
+						<img class="img-responsive margin-bottom-20" src="{% static 'media/placehold/500x500.png' %}" alt="">
+						<a href="#"><i class="rounded-x fa fa-link"></i></a>
+					</div>
+					<h2><a class="color-dark" href="#">Current Environments</a></h2>
+					<p>Kelly Space and Technology's current capabilities include vibration, shock, temperature and humidity cycling, thermal shock, altitude and high pressure, explosive and rapid decompression, and many more.</p>
+				</div>
+			</div><!--/end row-->
+		</div>
+		<!--=== End Featured Blog ===-->
+
+
+			<!--=== Parallax Counter v4 ===-->
+			<div class="parallax-counter-v4 parallaxBg" id="parallax-counter">
+				<div class="container content-sm">
+					<div class="row">
+						<div class="col-md-3 col-xs-6 md-margin-bottom-50">
+							<i class="icon-cup"></i>
+							<span class="counter">47</span>
+							<h4>Testing Environments</h4>
+						</div>
+						<div class="col-md-3 col-xs-6 md-margin-bottom-50">
+							<i class="icon-clock"></i>
+							<span class="counter">723</span>
+							<h4>Completed Testing's</h4>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<i class="icon-emoticon-smile"></i>
+							<span class="counter">142</span>
+							<h4>Happy Clients</h4>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<i class="icon-bulb"></i>
+							<span class="counter">37</span>
+							<h4>Patents and Patent Pendings</h4>
+						</div>
+					</div><!--/end row-->
+				</div><!--/end container-->
+			</div>
+			<!--=== End Parallax Counter v4 ===-->
+
+				<!--=== Owl Clients v1 
+				<div class="container content-sm">
+				<div style="opacity: 1; display: block;" class="owl-clients-v1 owl-carousel owl-theme">
+					<div class="owl-wrapper-outer"><div style="width: 2934px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);" class="owl-wrapper"><div style="width: 163px;" class="owl-item"><div class="item">
+						<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+					</div></div><div style="width: 163px;" class="owl-item"><div class="item">
+						<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+					</div></div><div style="width: 163px;" class="owl-item"><div class="item">
+						<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+					</div></div><div style="width: 163px;" class="owl-item"><div class="item">
+						<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+					</div></div><div style="width: 163px;" class="owl-item"><div class="item">
+						<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+					</div></div><div style="width: 163px;" class="owl-item"><div class="item">
+						<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+					</div></div><div style="width: 163px;" class="owl-item"><div class="item">
+						<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+					</div></div><div style="width: 163px;" class="owl-item"><div class="item">
+						<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+					</div></div><div style="width: 163px;" class="owl-item"><div class="item">
+						<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+					</div></div></div></div>
+
+
+					===-->
+					
+					
+					
+					
+					
+					
+					
+					
+				<div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+				</div>
+				<!--=== End Owl Clients v1 ===-->
+{% endblock %}
