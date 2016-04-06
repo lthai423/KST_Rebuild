@@ -1,6 +1,10 @@
 KST Content Management and Website Rebuild
 ===========================================
 
+Migration of Web Applications
+-----------------------------
+Due to NDA, the code base for all propietary web applications have been moved to a private repository on Github.  Applications including Remote View, Content Delivery and Deliverable Management System, and the User Authentication System models have all been migrated back to Boeing's server and must remain there during development until UAS is deployed.  If you have any issues contact [**Lawrence Thai - SWE Intern and PL for KST_Rebuild**](mailto:lthai@kellyspace.com) or [**Jason Lee - Director of Operations**](mailto:jlee@kellyspace.com).
+
 About this Project
 ------------------
 
