@@ -1,335 +1,68 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
-
 {% block header %}
-    <!-- CSS Customization -->
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/sky-forms.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom-sky-forms.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/pace-flash.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/business.style.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/global.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/app.css' %}">
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/blocks.css' %}">
-		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/owl.carousel.css' %}">
-		<link rel="stylesheet" href="{% static 'bootstrap/fonts/font-awesome/css/font-awesome.min.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/custom.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/header.css' %}">
-    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/ballistic.css' %}">
-
+     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/single_item.css' %}">
 {% endblock %}
 
-
-
 {% block content %}
-		<!--=== Breadcrumbs v3 ===-->
-		<div class="breadcrumbs-v3 img-v1" style="padding:175px 0;">
-			<div class="container text-center">
-				<p>Since 1992</p>
-				<h1>Our Services</h1>
-			</div><!--/end container-->
-		</div>
-		<!--=== End Breadcrumbs v3 ===-->
-	
+		
 
+		<!--=== Content Part ===-->
+		<div class="container content" id="wrap">
+			<div class="row portfolio-item margin-bottom-50">
+				<!-- Carousel -->
+				<div class="col-md-7">
+					<div class="carousel slide carousel-v1" id="myCarousel">
+						<div class="carousel-inner">
+							<div class="item active">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Cras justo odio, dapibus ac facilisis into egestas.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Justo cras odio apibus ac afilisis lingestas de.</p>
+								</div>
+							</div>
+						</div>
 
-		<!--=== Cube-Portfdlio ===-->
-		<div class="cube-portfolio container margin-bottom-60">
-			<div class="content-xs">
-				<div id="filters-container" class="cbp-l-filters-text content-xs">
-					<div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All </div> |
-					<div data-filter=".environmental" class="cbp-filter-item"> Environmental Testing</div> |
-					<div data-filter=".jet" class="cbp-filter-item"> Jet &amp; Rocket Testing</div> |
-					<div data-filter=".ballistic" class="cbp-filter-item"> Ballistic Testing</div> |
-					<div data-filter=".launch" class="cbp-filter-item"> Launch Vehicles </div>
-					<div data-filter=".protection" class="cbp-filter-item"> Ballistic Protection</div>
-				</div><!--/end Filters Container-->
+						<div class="carousel-arrow">
+							<a data-slide="prev" href="#myCarousel" class="left carousel-control">
+								<i class="fa fa-angle-left"></i>
+							</a>
+							<a data-slide="next" href="#myCarousel" class="right carousel-control">
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- End Carousel -->
+
+				<!-- Content Info -->
+				<div class="col-md-5">
+					<h2>Ballistics Testing</h2>
+					<p>Ballistic testing for bullet impact and fragmentation requires a  laboratory to be responsive to customer requirements and needs and ensure the  highest level of accuracy and quality. At KST, we provide our customers with  the highest level of quality assurance and optional data acquisition for each  of their testing samples they test.</p>
+					<p>KST tests ballistic resistant materials for a wide variety of  applications and purposes. Testing is performed in accordance to MIL-STD, NIJ,  STANAG, UL, and NATO requirements, as well as other tailored requirements  established by the customer. Tests performed to structural armor standards as  well as body armor specifications are performed quickly and efficiently. </p>
+					<p>KST is capable of quickly manufacturing testing stands, fixtures,  and specialized testing equipment to meet customer needs. The test cell is able  to fit testing articles up to 12&rsquo; wide and 10&rsquo; high. These articles can be  placed in hard mounts, and/or rotating mounts. Shot placement can be placed at  any angle or height on the test article. KST can provide customers with &ldquo;Operational  Conditions Testing&rdquo; involving conditioning of armor materials and solutions.  Using state-of-the-art data acquisition systems, real life situations can be  simulated utilizing mannequins and models to monitor impact pressures, speeds,  overpressure from blast, penetration speed, as well as depth and blunt trauma.  These types of value-add testing helps customers better understand its armor  and its attributes. </p>
+					<p>The ability to test materials from small arms (0.17-0.30), heavy  machine gun (0.50) and 20mm cannon coupled with the capability to rapidly  manufacture fixtures, and incorporate data acquisition systems gives KST a key  advantage when providing our customers with the highest level of quality  assurance and professionalism. Our customer&rsquo;s articles will be tested with the  highest level of precision, whether it is for engineering confidence or final  article testing. &nbsp;</p>
+					<p>KST is able to provide assessment of armor materials and  solutions, based upon the data recorded from the testing. Our staff of  ballistic specialists and engineers have many years of experience in the field  (both military and LE). We can also provide engineering support for customers  to enhance their products through a collaboration service. </p>
+				</div>
+				<!-- End Content Info -->
+			</div><!--/row-->
+
+			<div class="tag-box tag-box-v2">
+				<p>Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat.</p>
 			</div>
 
-			<div id="grid-container" class="cbp-l-grid-agency">
-				<div class="cbp-item launch">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Launch Vehicles</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item ballistic">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title"> Ballistic Testing </div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item jet">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Jet and Rocket Testing</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item protection">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Ballistic Protection System</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Test Environments</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Shock Impact Testing</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-<!-- 										<li><a href="assets/img/main/img18.jpg" class="cbp-lightbox" data-title="Design Object"><i class="rounded-x fa fa-search"></i></a></li>
- -->									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Dynamic/Seismic Testing</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Fluids Testing</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Electromagnetic</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Reliability</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Acoustics Testing</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Structural Analysis</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Jet &amp; Rocket Engine</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-				<div class="cbp-item environmental">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title">Explosives Testing</div>
-						<div class="cbp-l-grid-agency-desc">Description of Service</div>
-					</div>
-				</div>
-			</div><!--/end Grid Container-->
-		</div>
-		<!--=== End Cube-Portfdlio ===-->
+			<div class="margin-bottom-20 clearfix"></div>
 
 {% endblock %}

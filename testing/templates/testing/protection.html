@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block header %}
+     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/single_item.css' %}">
+{% endblock %}
+
+{% block content %}
+		
+
+		<!--=== Content Part ===-->
+		<div class="container content" id="wrap">
+			<div class="row portfolio-item margin-bottom-50">
+				<!-- Carousel -->
+				<div class="col-md-7">
+					<div class="carousel slide carousel-v1" id="myCarousel">
+						<div class="carousel-inner">
+							<div class="item active">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Cras justo odio, dapibus ac facilisis into egestas.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Justo cras odio apibus ac afilisis lingestas de.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="carousel-arrow">
+							<a data-slide="prev" href="#myCarousel" class="left carousel-control">
+								<i class="fa fa-angle-left"></i>
+							</a>
+							<a data-slide="next" href="#myCarousel" class="right carousel-control">
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- End Carousel -->
+
+				<!-- Content Info -->
+				<div class="col-md-5">
+					<h2>Ballistic Protection System</h2>
+					<p>Stemming from KST&rsquo;s composite materials work on its Reusable Launch System program, a patent-pending and lightweight armor known as the Encapsulated Ballistic Protection System (EBPS) has been developed by KST. Capable of being molded into any shape for a wide variety of applications, the EBPS system can be used in applications that range from body armor to protective underbodies and exterior panels for land vehicles, watercraft and aircraft components, entry control points, barracks, and sensitive equipment cases. Furthermore, EBPS can also be manufactured to replace a very wide range of complex parts, components, or structures that need protection, thereby eliminating the need for parasitic protection.  </p>
+					<p>The performance of the EBPS is optimized for different armor applications within a broad range of permutations and adjustments in material, manufacturing process and other variables within the integrated and encapsulated system. As a result, the whole (or EBPS), is greater than the sum of its parts; leading to a lighter-weight, higher-performance armor solution. </p>
+					<p>The unique properties of the EBPS enable it to act as &ldquo;Structural Armor&rdquo; i.e. structure and armor combined as one and thereby providing substantial weight savings. For example, in the case of HMMWV doors and body panels, the EBPS can be used to create an entire replacement door or body panel rather than bolting armor to the Original Equipment Manufacturer (OEM) doors as with current armor systems. This process allows for the incorporation of various ballistic material configurations while maintaining the existing OEM size and shape.    </p>
+					<p>Independent testing of EBPS test panels reveals significant durability after the initial impact, allowing for multiple strikes within a small area without degrading the structure to the point of failure. The EBPS provides a higher multi-hit capability than found in armor systems currently on the market. Another key attribute is a significant reduction of the amount of back-face deformation. This decrease will lessen the amount of impact energy exerted on the non-threat side of the armor structure. </p>
+				</div>
+				<!-- End Content Info -->
+			</div><!--/row-->
+
+			<div class="tag-box tag-box-v2">
+				<p>Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat.</p>
+			</div>
+
+			<div class="margin-bottom-20 clearfix"></div>
+
+{% endblock %}
