@@ -57,5 +57,43 @@
 .header-v6 .navbar-nav > .active > a,
 .header-v6 .navbar-nav > .active > a:hover,
 .header-v6 .navbar-nav > .active > a:focus{
-	color: gray;
+	color: white;
+}
+
+.breadcrumbs-v3.img-v1 {
+  background: url(../../../../../media/cool-logo-1.png) no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  padding: 18% 0;
+  overflow: hidden;
+}
+
+
+#thumbnail-grid {
+    text-align: center;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+}
+
+/*#thumbnail-grid img {
+
+    height: auto; 
+}*/
+
+.header-v6 .navbar-brand img {
+	width: auto;
+	height: auto;
+	max-width: 175%;
+	max-height: 175%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.shrink-logo{
+	display: inherit;
+	max-width: 175%;
+	max-height: 175%;
+	margin-top: -13%;
 }

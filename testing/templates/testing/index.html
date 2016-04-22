@@ -23,10 +23,10 @@
 
 {% block content %}
 		<!--=== Breadcrumbs v3 ===-->
-		<div class="breadcrumbs-v3 img-v1" style="padding:175px 0;">
+		<div class="breadcrumbs-v3 img-v1">
 			<div class="container text-center">
-				<p>Since 1992</p>
-				<h1>Our Services</h1>
+				<!-- <p>Since 1992</p>
+				<h1>Our Services</h1> -->
 			</div><!--/end container-->
 		</div>
 		<!--=== End Breadcrumbs v3 ===-->
@@ -46,11 +46,11 @@
 				</div><!--/end Filters Container-->
 			</div>
 
-			<div id="grid-container" class="cbp-l-grid-agency">
+			<div id="grid-container" class="cbp-l-grid-agency" >
 				<div class="cbp-item launch">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
+							<img src="{% static 'media/jet.png' %}" style="height:300px; width: 300px;" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
 							<div class="cbp-l-caption-alignCenter">
@@ -69,7 +69,7 @@
 				</div>
 				<div class="cbp-item ballistic">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -88,7 +88,7 @@
 				</div>
 				<div class="cbp-item jet">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -107,7 +107,7 @@
 				</div>
 				<div class="cbp-item protection">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -126,7 +126,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -145,7 +145,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -164,7 +164,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -184,7 +184,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -203,7 +203,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -222,7 +222,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -241,7 +241,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -260,7 +260,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -279,7 +279,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">
@@ -298,7 +298,7 @@
 				</div>
 				<div class="cbp-item environmental">
 					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
+						<div class="cbp-caption-defaultWrap" id="thumbnail-grid">
 							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
 						</div>
 						<div class="cbp-caption-activeWrap">

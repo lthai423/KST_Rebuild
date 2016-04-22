@@ -8,3 +8,20 @@ html, body {
     max-width: 100%;
     /*overflow-x: hidden;*/
 }
+
+.header-v6 .navbar-brand img {
+	width: auto;
+	height: auto;
+	max-width: 175%;
+	max-height: 175%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.shrink-logo{
+	display: inherit;
+	max-width: 175%;
+	max-height: 175%;
+	margin-top: -13%;
+}
