@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block header %}
+     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/single_item.css' %}">
+{% endblock %}
+
+{% block content %}
+		
+
+		<!--=== Content Part ===-->
+		<div class="container content" id="wrap">
+			<div class="row portfolio-item margin-bottom-50">
+				<!-- Carousel -->
+				<div class="col-md-7">
+					<div class="carousel slide carousel-v1" id="myCarousel">
+						<div class="carousel-inner">
+							<div class="item active">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Cras justo odio, dapibus ac facilisis into egestas.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Justo cras odio apibus ac afilisis lingestas de.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="carousel-arrow">
+							<a data-slide="prev" href="#myCarousel" class="left carousel-control">
+								<i class="fa fa-angle-left"></i>
+							</a>
+							<a data-slide="next" href="#myCarousel" class="right carousel-control">
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- End Carousel -->
+
+				<!-- Content Info -->
+				<div class="col-md-5">
+					<h2>Test Environments</h2>
+					<p>Kelly Space   &amp; Technology offers state of the art test facilities and strives to keep test   and engineering programs on schedule and within budget. Whether your need is   physical test, engineering or documentation services (Test plan &amp; Test   Procedures) to meet MIL-STD-810 or RTCA DO-160,   ASTM, ASME,   IEEE, ETS   or any other   test   specifications, KST&rsquo;s extensive engineering staff and technicians are available   to economically test and or assist with any test specification tailoring process   that could apply to a specific test specimen. Thus controlling the overall   program test cost and schedule. The end   result is speeding your product to market.</p>
+					<p>KST&rsquo;s Environmental/Dynamics Test Operations conducts a full range of qualification, R &amp; D, compliance and reliability testing supporting Defense, Energy, Transportation, Telecommunications, Consumer Products, Environmental Remediation and Life Sciences industry sectors using specialized test equipment and unique test fixtures in its modified test facilities at the ARDC.</p>
+					<p>KST team can test items ranging from rocket engines to valves, to full systems and sub-system hardware and or single components. </p>
+					<p>KST&rsquo;s current environments testing capabilities include vibration, shock, temperature and humidity cycling, thermal shock, altitude and high pressure, explosive and rapid decompression, burst, sand and dust, corrosives and salt fog, blowing wind and rain, hail, snow and ice, solar and ultraviolet light exposure, flammability, classic shock (drop) and multiple combinations of these environments. KST also conducts testing in high flow and high pressure   environments for a wide range of gasses, liquids, slurries and gels from steam   to cryogenics.</p>
+				</div>
+				<!-- End Content Info -->
+			</div><!--/row-->
+
+			<div class="tag-box tag-box-v2">
+				<p style="text-align: center;">For more information or to request a quote, please <a href="/contact/">contact us.</a></p>
+			</div>
+
+			<div class="margin-bottom-20 clearfix"></div>
+
+{% endblock %}

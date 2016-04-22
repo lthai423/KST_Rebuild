@@ -1,0 +1,32 @@
+.interactive-slider-v2.img-v3{
+	background:  url(../../../../../media/tools.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+}
+
+.header-v6 .navbar-nav > li > a,
+.header-v6 .navbar-nav > li > a:hover,
+.header-v6 .navbar-nav > li > a:focus,
+.header-v6 .navbar-nav > .active > a,
+.header-v6 .navbar-nav > .active > a:hover,
+.header-v6 .navbar-nav > .active > a:focus{
+	color: white;
+
+}
+
+.header-v6 .navbar-brand img {
+	width: auto;
+	height: auto;
+	max-width: 175%;
+	max-height: 175%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.shrink-logo{
+	display: inherit;
+	max-width: 175%;
+	max-height: 175%;
+	margin-top: -13%;
+}
