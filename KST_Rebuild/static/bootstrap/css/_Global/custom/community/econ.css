@@ -5,16 +5,6 @@
 
 }
 
-.header-v6 .navbar-nav > li > a,
-.header-v6 .navbar-nav > li > a:hover,
-.header-v6 .navbar-nav > li > a:focus,
-.header-v6 .navbar-nav > .active > a,
-.header-v6 .navbar-nav > .active > a:hover,
-.header-v6 .navbar-nav > .active > a:focus{
-	color: white;
-
-}
-
 .header-v6 .navbar-brand img {
 	width: auto;
 	height: auto;
