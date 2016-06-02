@@ -44,3 +44,6 @@ def engine(request):
 
 def explosives(request):
 	return render(request, 'testing/explosives.html')
+
+def technologies(request):
+	return render(request, 'testing/technologies.html')

@@ -22,5 +22,6 @@ urlpatterns = [
     url(r'^structural/', views.structural, name ='structural'),
     url(r'^engine/', views.engine, name ='engine'),
     url(r'^explosives/', views.explosives, name ='explosives'),
+    url(r'^technologies/', views.technologies, name = 'technologies'),
 ]
 
