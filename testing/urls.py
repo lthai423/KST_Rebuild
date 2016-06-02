@@ -19,9 +19,9 @@ urlpatterns = [
     url(r'^electromagnetic/', views.electromagnetic, name ='electromagnetic'),
     url(r'^reliability/', views.reliability, name ='reliability'),
     url(r'^acoustics/', views.acoustics, name ='acoustics'),
+    url(r'^technologies/', views.technologies, name = 'technologies'),
     url(r'^structural/', views.structural, name ='structural'),
     url(r'^engine/', views.engine, name ='engine'),
     url(r'^explosives/', views.explosives, name ='explosives'),
-    url(r'^technologies/', views.technologies, name = 'technologies'),
 ]
 
