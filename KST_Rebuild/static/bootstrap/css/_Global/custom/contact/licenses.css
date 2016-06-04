@@ -1,8 +1,10 @@
 .interactive-slider-v2.img-v3{
+	background: url("../../../../../media/about/background-accent.png");
 	margin: -5% -1% 0 -1%;
 	background-position: center center;
-	height: 60%;
+	height: 0;
 }
+
 .interactive-slider-v2:after{
 	height: 0%;
 }
@@ -21,4 +23,16 @@
 	max-width: 175%;
 	max-height: 175%;
 	margin-top: -13%;
+}
+
+.promo-block__item{
+	background: #3f3f3f;
+}
+
+.copyright{
+	position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+    margin-left: 200px;
 }
