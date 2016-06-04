@@ -6,9 +6,7 @@ app_name = 'contact'
 
 from . import views
 urlpatterns = [
-
     url(r'^$', views.contact, name ='contact'),
-    
-
+    url(r'^licenses/', views.licenses, name="licenses"),
 ]
 

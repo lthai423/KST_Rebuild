@@ -1,0 +1,24 @@
+.interactive-slider-v2.img-v3{
+	margin: -5% -1% 0 -1%;
+	background-position: center center;
+	height: 60%;
+}
+.interactive-slider-v2:after{
+	height: 0%;
+}
+
+.header-v6 .navbar-brand img {
+	width: auto;
+	height: auto;
+	max-width: 175%;
+	max-height: 175%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.shrink-logo{
+	display: inherit;
+	max-width: 175%;
+	max-height: 175%;
+	margin-top: -13%;
+}
