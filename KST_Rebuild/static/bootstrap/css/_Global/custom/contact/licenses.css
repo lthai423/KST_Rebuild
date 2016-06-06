@@ -36,3 +36,12 @@
     margin-top : 40px;
     margin-left: 200px;
 }
+
+.header-v6 .navbar-nav > li > a,
+.header-v6 .navbar-nav > li > a:hover,
+.header-v6 .navbar-nav > li > a:focus,
+.header-v6 .navbar-nav > .active > a,
+.header-v6 .navbar-nav > .active > a:hover,
+.header-v6 .navbar-nav > .active > a:focus{
+	color: gray;
+}
