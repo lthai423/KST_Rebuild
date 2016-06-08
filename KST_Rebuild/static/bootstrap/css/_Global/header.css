@@ -95,7 +95,7 @@
 /*Navbar*/
 .header-v6 .navbar {
 	border: none;
-	margin-bottom: 0;
+	/* margin-bottom: 0; */
 }
 
 /*Navbar Brand*/
