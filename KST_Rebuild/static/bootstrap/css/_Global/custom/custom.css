@@ -12,9 +12,9 @@ html, body {
 .header-v6 .navbar-brand img {
 	/*width: auto;
 	height: auto;*/
-	max-width: 175%;
-	max-height: 175%;
-	margin: -15% 0 0 -20%;
+	max-width: 125%;
+	max-height: 125%;
+	margin: -4% 0 0 0;
 	/*display: inline-block;
 	vertical-align: middle;*/
 }
@@ -29,7 +29,7 @@ html, body {
 
 .navbar{
 	background: rgba(226,226,226,0.9);
-	padding: 1%;
+	/* padding: 1%; */
 }
 
 .header-v6 .navbar-nav > li > a,
@@ -41,3 +41,8 @@ html, body {
 	color: gray;
 }
 
+.copyright{
+  position: relative;
+  clear:both;
+  padding: 2% 0 0 0;
+}

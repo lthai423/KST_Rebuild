@@ -18,9 +18,6 @@
 		color: gray;
 	}
 
-.wrapper {
-    margin: -3% -3% -3% -3%;
-}
 
 .g-bg-dark-blue1 {
     padding: 10% 0 0 0;
@@ -59,7 +56,7 @@
 }
 
 body {
-    padding-top: 11%; /* This should be equal to the height of your header */
+    /* padding-top: 11%; */ /* This should be equal to the height of your header */
 }
 
 .cbp-caption-defaultWrap {
