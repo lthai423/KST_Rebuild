@@ -52,7 +52,7 @@
   background-color: black;
   /*background-size: 100% 100%;*/
   background-position: center center;
-  /*padding: 25% 0;*/
+  padding: 25% 0 0 0;
   /*margin: -12% 0 0 0;*/
   overflow: hidden;
 }
