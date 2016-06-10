@@ -158,8 +158,8 @@ SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 
 # CONTACT FORMS #
 
-EMAIL_BACKEND = 'smpt.sendgrid.net' 
-EMAIL_HOST_USER = 'sendgrid_username'
+EMAIL_BACKEND = 'smtp.sendgrid.net' 
+EMAIL_HOST_USER = 'lthai423'
 EMAIL_HOST_PASSWORD = 'mj8696hp'
 EMAIL_USE_TLS = True 
 EMAIL_PORT = 587

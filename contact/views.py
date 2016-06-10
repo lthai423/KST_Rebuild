@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from contact.forms import ContactForm
 # new imports that go at the top of the file
 from django.template.loader import get_template
-from django.core.mail import EmailMessage
+from django.core.mail import EmailMessage, send_mail
 from django.template import Context
 
 # our view
@@ -39,8 +39,10 @@ def contact(request):
                 ['lthai423@gmail.com'],
                 headers = {'Reply-To': contact_email }
             )
-            email.send()
-            print "\n\nwtf huh\n\n"
+            # email.send()
+            send_mail('Subject here', 'Here is the message.', 'from@example.com', ['lthai423@gmail.com'], fail_silently=False)
+
+            print "\n\nwtf  \n\n"
             return redirect('/contact')
 
     return render(request, 'contact/contact.html', {
