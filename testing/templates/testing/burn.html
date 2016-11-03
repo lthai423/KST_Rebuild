@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block header %}
+     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/single_item.css' %}">
+{% endblock %}
+
+{% block content %}
+		
+
+		<!--=== Content Part ===-->
+		<div class="container content" id="wrap">
+			<div class="row portfolio-item margin-bottom-50">
+				<!-- Carousel -->
+				<div class="col-md-7">
+					<div class="carousel slide carousel-v1" id="myCarousel">
+						<div class="carousel-inner">
+							<div class="item active">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Cras justo odio, dapibus ac facilisis into egestas.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
+								<div class="carousel-caption">
+									<p>Justo cras odio apibus ac afilisis lingestas de.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="carousel-arrow">
+							<a data-slide="prev" href="#myCarousel" class="left carousel-control">
+								<i class="fa fa-angle-left"></i>
+							</a>
+							<a data-slide="next" href="#myCarousel" class="right carousel-control">
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- End Carousel -->
+
+				<!-- Content Info -->
+				<div class="col-md-5">
+					<h1>Portable Burn Debridement Laser</h1>
+					<p>
+						Burn wounds are exceedingly traumatic to the human body. For modest injuries, as many as a dozen surgical procedures are required for sufficient treatment with a satisfactory outcome. For more severe cases hospitalization requirements can range from one to two years in a special burn unit facility at costs that exceeds 1 to 2 million dollars. Regarding the human element, the pain and suffering is nearly unbearable, with increased probability of complications exacerbated by the length of time and number of procedures endured. A key medical risk is the enormous blood loss during traditional surgical procedures to remove dead tissue prior to grafting operations. In addition to burn treatment, many types of skin ulcers, such as bed sores, need more effective treatment to reduce the risk of gangrene and other infection.
+					</p>
+					<h4>The Solution</h4>
+					<p>
+						Kelly Space &amp;Technology, Inc. (KST) is developing a Portable Burn Debridement Laser (PBDL) system that will showcase the capabilities of KST’s laser treatment technology. Based on the core KST knowledge acquired with the development of laser de-coating systems, the portable burn wound debridement system will share core concepts and technologies while being tailored for medical use by medical professionals. 
+					</p>
+				</div>
+				<!-- End Content Info -->
+			</div><!--/row-->
+
+			<div class="tag-box tag-box-v2">
+				<p style="text-align: center;">If you wish for a quote on our environmental testing please <a href="/contact/">contact us here</a>.</p>
+			</div>
+
+			<div class="margin-bottom-20 clearfix"></div>
+
+{% endblock %}

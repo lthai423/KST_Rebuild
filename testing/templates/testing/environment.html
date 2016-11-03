@@ -1,67 +1,357 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
+
 {% block header %}
-     <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/single_item.css' %}">
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/sky-forms.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom-sky-forms.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/pace-flash.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/business.style.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/global.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/app.css' %}">
+		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/blocks.css' %}">
+		<link rel="stylesheet" href="{% static 'bootstrap/css/_Global/owl.carousel.css' %}">
+		<link rel="stylesheet" href="{% static 'bootstrap/fonts/font-awesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/header.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/custom.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/_Global/custom/testing/ballistic.css' %}">
+
 {% endblock %}
 
+
+
 {% block content %}
-		
+		<!--=== News Block ===-->
+		<div class="container content-sm">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 md-margin-bottom-30">
+						<h2 class="title-v2">WHAT WE DO</h2>
+						<p>
+							Kelly Space &amp; Technology offers extensive test facilities and strives to provide test and engineering programs on schedule and on cost with maximum flexibility to the benefit of our customers. </br><br>
 
-		<!--=== Content Part ===-->
-		<div class="container content" id="wrap">
-			<div class="row portfolio-item margin-bottom-50">
-				<!-- Carousel -->
-				<div class="col-md-7">
-					<div class="carousel slide carousel-v1" id="myCarousel">
-						<div class="carousel-inner">
-							<div class="item active">
-								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
-								<div class="carousel-caption">
-									<p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
-								</div>
-							</div>
-							<div class="item">
-								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
-								<div class="carousel-caption">
-									<p>Cras justo odio, dapibus ac facilisis into egestas.</p>
-								</div>
-							</div>
-							<div class="item">
-								<img alt="" src="{% static 'media/placehold/750x750.png' %}">
-								<div class="carousel-caption">
-									<p>Justo cras odio apibus ac afilisis lingestas de.</p>
-								</div>
-							</div>
-						</div>
+							Whether your need is test, engineering or documentation services (Test Plan &amp; Test Procedures) to meet MIL-STD-810 or RTCA DO-160, ASTM, ASME, IEEE, ETS or any other test specifications, KST’s experienced engineering staff and technicians are available to cost effectively test and or assist with any test specification tailoring process that could apply to a specific test specimen early on in the test requirements identification process so that overall program test cost and schedule is minimized. KST’s ultimate goal is always to support our customers with speed to market of product.</br></br>
 
-						<div class="carousel-arrow">
-							<a data-slide="prev" href="#myCarousel" class="left carousel-control">
-								<i class="fa fa-angle-left"></i>
-							</a>
-							<a data-slide="next" href="#myCarousel" class="right carousel-control">
-								<i class="fa fa-angle-right"></i>
-							</a>
-						</div>
+							KST’s Environmental/Dynamics Test Operations conducts a full range of Qualification, R&amp;D, Compliance and Reliability Testing supporting Defense, Energy, Transportation, Telecommunications, Consumer Products, Environmental Remediation and Life Sciences industry sectors using specialized test equipment and unique test fixtures. </br></br>
+
+							As an ISO 9001:2008 certified organization, KST team can test items ranging from rocket engines to valves, to full systems and sub-system hardware and or single components. </br></br>
+
+							KST’s current environments testing capabilities include vibration, shock, temperature and humidity cycling, thermal shock, altitude and high pressure, explosive and rapid decompression, burst, sand and dust, corrosives and salt fog, blowing wind and rain, hail, snow and ice, solar and ultraviolet light exposure, flammability, classic shock (drop) and multiple combinations of these environments. KST also conducts testing in high flow and high pressure environments for a wide range of gasses, liquids, slurries and gels from steam to cryogenics.
+						</p>
 					</div>
 				</div>
-				<!-- End Carousel -->
-
-				<!-- Content Info -->
-				<div class="col-md-5">
-					<h2>Test Environments</h2>
-					<p>Kelly Space   &amp; Technology offers state of the art test facilities and strives to keep test   and engineering programs on schedule and within budget. Whether your need is   physical test, engineering or documentation services (Test plan &amp; Test   Procedures) to meet MIL-STD-810 or RTCA DO-160,   ASTM, ASME,   IEEE, ETS   or any other   test   specifications, KST&rsquo;s extensive engineering staff and technicians are available   to economically test and or assist with any test specification tailoring process   that could apply to a specific test specimen. Thus controlling the overall   program test cost and schedule. The end   result is speeding your product to market.</p>
-					<p>KST&rsquo;s   Environmental/Dynamics Test   Operations conducts a full range of qualification, R &amp; D, compliance and   reliability testing supporting Defense, Energy, Transportation,   Telecommunications, Consumer Products, Environmental Remediation and Life   Sciences industry sectors using specialized test equipment and unique test   fixtures in its modified test facilities at the   ARDC.</p>
-					<p>KST team   can test items ranging from rocket engines to valves, to full systems and   sub-system hardware and or single components. </p>
-					<p>KST&rsquo;s   current environments testing capabilities include vibration, shock, temperature   and humidity cycling, thermal shock, altitude and high pressure, explosive and   rapid decompression, burst, sand and dust, corrosives and salt fog, blowing wind   and rain, hail, snow and ice, solar and ultraviolet light exposure,   flammability, classic shock (drop) and multiple combinations of these   environments. KST also conducts testing in high flow and high pressure   environments for a wide range of gasses, liquids, slurries and gels from steam   to cryogenics.</p>
-				</div>
-				<!-- End Content Info -->
-			</div><!--/row-->
-
-			<div class="tag-box tag-box-v2">
-				<p>Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat.</p>
 			</div>
+		</div>
+		<!--=== End News Block ===-->
+		<!--=== Cube-Portfdlio ===-->
+		<div class="cube-portfolio container margin-bottom-60">
+			<div class="content-xs"></div>
+			<div id="grid-container" class="cbp-l-grid-agency" >
+				<div class="cbp-item ballistic">
+					<div class="cbp-caption margin-bottom-20">
+						<div class="cbp-caption-defaultWrap" >
+							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+						</div>
+						<div class="cbp-caption-activeWrap">
+							<div class="cbp-l-caption-alignCenter">
+								<div class="cbp-l-caption-body">
+									<ul class="link-captions no-bottom-space">
+										<li><a data-toggle="modal" href="#testEnvironmentModal"><i class="rounded-x fa fa-link"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cbp-title-dark">
+						<div class="cbp-l-grid-agency-title"> Test Environments </div>
+					</div>
+				</div>
+				<div class="cbp-item jet">
+					<div class="cbp-caption margin-bottom-20">
+						<div class="cbp-caption-defaultWrap" >
+							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+						</div>
+						<div class="cbp-caption-activeWrap">
+							<div class="cbp-l-caption-alignCenter">
+								<div class="cbp-l-caption-body">
+									<ul class="link-captions no-bottom-space">
+										<li><a data-toggle="modal" href="#dynamicShockModal"><i class="rounded-x fa fa-link"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cbp-title-dark">
+						<div class="cbp-l-grid-agency-title">Dynamic/Shock</div>
+					</div>
+				</div>
+				<div class="cbp-item environmental">
+					<div class="cbp-caption margin-bottom-20">
+						<div class="cbp-caption-defaultWrap" >
+							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+						</div>
+						<div class="cbp-caption-activeWrap">
+							<div class="cbp-l-caption-alignCenter">
+								<div class="cbp-l-caption-body">
+									<ul class="link-captions no-bottom-space">
+										<li><a data-toggle="modal" href="#fluidsTestingModal"><i class="rounded-x fa fa-link"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cbp-title-dark">
+						<div class="cbp-l-grid-agency-title"> Fluids Testing </div>
+					</div>
+				</div>
+				<div class="cbp-item environmental">
+					<div class="cbp-caption margin-bottom-20">
+						<div class="cbp-caption-defaultWrap" >
+							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+						</div>
+						<div class="cbp-caption-activeWrap">
+							<div class="cbp-l-caption-alignCenter">
+								<div class="cbp-l-caption-body">
+									<ul class="link-captions no-bottom-space">
+										<li><a data-toggle="modal" href="#reliabilityTestingModal"><i class="rounded-x fa fa-link"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cbp-title-dark">
+						<div class="cbp-l-grid-agency-title"> Reliability Testing </div>
+					</div>
+				</div>
+				<div class="cbp-item environmental">
+					<div class="cbp-caption margin-bottom-20">
+						<div class="cbp-caption-defaultWrap" >
+							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+						</div>
+						<div class="cbp-caption-activeWrap">
+							<div class="cbp-l-caption-alignCenter">
+								<div class="cbp-l-caption-body">
+									<ul class="link-captions no-bottom-space">
+										<li><a data-toggle="modal" href="#structuralTestingModal"><i class="rounded-x fa fa-link"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cbp-title-dark">
+						<div class="cbp-l-grid-agency-title"> Structural Testing and Analysis </div>
+					</div>
+				</div>
+				<div class="cbp-item environmental">
+					<div class="cbp-caption margin-bottom-20">
+						<div class="cbp-caption-defaultWrap" >
+							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+						</div>
+						<div class="cbp-caption-activeWrap">
+							<div class="cbp-l-caption-alignCenter">
+								<div class="cbp-l-caption-body">
+									<ul class="link-captions no-bottom-space">
+										<li><a data-toggle="modal" href="#supportServicesModal"><i class="rounded-x fa fa-link"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cbp-title-dark">
+						<div class="cbp-l-grid-agency-title"> Support Services </div>
+					</div>
+				</div>
+				<div class="cbp-item environmental">
+					<div class="cbp-caption margin-bottom-20">
+						<div class="cbp-caption-defaultWrap" >
+							<img src="{% static 'media/placehold/500x500.png' %}" alt="">
+						</div>
+						<div class="cbp-caption-activeWrap">
+							<div class="cbp-l-caption-alignCenter">
+								<div class="cbp-l-caption-body">
+									<ul class="link-captions no-bottom-space">
+										<li><a data-toggle="modal" href="#testSetupModal"><i class="rounded-x fa fa-link"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cbp-title-dark">
+						<div class="cbp-l-grid-agency-title"> Custom Test Set-Up </div>
+					</div>
+				</div>
+			</div><!--/end Grid Container-->
+		</div>
+		<!--=== End Cube-Portfdlio ===-->
 
-			<div class="margin-bottom-20 clearfix"></div>
+		<!-- Modal -->
+		<div class="modal fade" id="testEnvironmentModal" tabindex="-1" role="dialog" aria-labelledby="testEnvironmentModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="testEnvironmentModalLabel">Test Environments</h4>
+		      </div>
+		      <div class="modal-body">
+		        <ul>
+		        	<li>Altitude &amp; high pressure</li>
+		        	<li>Blowing wind &amp; rain</li>
+		        	<li>Hail, snow &amp; ice </li>
+		        	<li>Thermal cycling</li>
+		        	<li>Solar &amp; UV exposure</li>
+		        	<li>Sand &amp; dust</li>
+		        	<li>Corrosives &amp; salt fog</li>
+		        	<li>Flammability</li>
+		        	<li>Fungus</li>
+		        	<li>Explosive Atmosphere</li>
+		        	<li>Explosive and rapid decompression</li>
+		        	<li>Acceleration*</li>
+		        	<li>Spectrum shock (pyrotechnic or shaker synthesized)</li>
+		        	<li>Combinations of these environments</li>
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="dynamicShockModal" tabindex="-1" role="dialog" aria-labelledby="dynamicShockModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="dynamicShockModalLabel">Dynamic/Shock</h4>
+		      </div>
+		      <div class="modal-body">
+		        <ul>
+		        	<li>Vibration (electrodynamic and mechanical)</li>
+		        	<li>Shock including pyrotechnic</li>
+							<li>Bird Strike Simulation</li>
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="fluidsTestingModal" tabindex="-1" role="dialog" aria-labelledby="fluidsTestingModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="fluidsTestingModalLabel">Fluids Testing</h4>
+		      </div>
+		      <div class="modal-body">
+		      	From steam to cyrogenics
+		        <ul>
+							<li>High Flow</li>
+							<li>High Pressure</li>
+							<li>Gases, Liquids, Slurries, Gels</li>
+							<li>Multi-Phase Flow</li>
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="reliabilityTestingModal" tabindex="-1" role="dialog" aria-labelledby="reliabilityTestingModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="reliabilityTestingModalLabel">Reliability Testing</h4>
+		      </div>
+		      <div class="modal-body">
+		        <ul>
+		        	<li>Large capacity test chambers</li>
+							<li>Simultaneous temperature, humidity, vibration &amp; voltage</li>
+							<li>Environmental stress screening (ESS) programs</li>
+							<li>HALT/HASS*</li>
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="structuralTestingModal" tabindex="-1" role="dialog" aria-labelledby="structuralTestingModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="structuralTestingModalLabel">Structural Testing and Analysis</h4>
+		      </div>
+		      <div class="modal-body">
+		        <ul>
+		        	<li>Fatigue &amp; endurance tests</li>
+							<li>In-house computer modeling</li>
+							<li>Static, dynamic, modal studies</li>
+							<li>Life-cycle and risk/hazards analyses</li>
+							<li>Field Services (on-site)</li>
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="supportServicesModal" tabindex="-1" role="dialog" aria-labelledby="supportServicesModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="supportServicesModalLabel">Support Services</h4>
+		      </div>
+		      <div class="modal-body">
+		        <ul>
+		        	<li>Test Planning and Design</li>
+							<li>Instrumentation Design and Installation</li>
+							<li>Computer-Aided Design (CAD)</li>
+							<li>Prototyping</li>
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="testSetupModal" tabindex="-1" role="dialog" aria-labelledby="testSetupModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="testSetupModalLabel">Custom Test Setup</h4>
+		      </div>
+		      <div class="modal-body">
+		        <ul>
+		        	<li>Unique test fixture design &amp; fabrication</li>
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 
 {% endblock %}

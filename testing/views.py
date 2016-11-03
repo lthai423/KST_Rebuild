@@ -47,3 +47,6 @@ def explosives(request):
 
 def technologies(request):
 	return render(request, 'testing/technologies.html')
+
+def burn(request):
+	return render(request, 'testing/burn.html')

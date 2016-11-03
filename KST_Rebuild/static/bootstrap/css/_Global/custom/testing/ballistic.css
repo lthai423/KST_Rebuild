@@ -55,6 +55,14 @@
   overflow: hidden;
 }
 
+.breadcrumbs-v3.img-v2 {
+  background: url(../../../../../media/cool-logo-3.png) no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  padding: 18% 0;
+  overflow: hidden;
+}
+
 body {
     /* padding-top: 11%; */ /* This should be equal to the height of your header */
 }
@@ -66,7 +74,9 @@ body {
     overflow: hidden;
 }
 
-/*#thumbnail-grid img {
-
-    height: auto; 
-}*/
+.breadcrumbs-v3 h4 {
+  color: #fff;
+  font-size: 21px;
+  line-height: 27px;
+  /*text-transform: uppercase;*/
+}

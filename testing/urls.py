@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^structural/', views.structural, name ='structural'),
     url(r'^engine/', views.engine, name ='engine'),
     url(r'^explosives/', views.explosives, name ='explosives'),
+    url(r'^burn/', views.burn, name ='burn'),    
 ]
 
